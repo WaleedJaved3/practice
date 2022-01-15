@@ -1,0 +1,8 @@
+table[td]{
+    text-align: right;
+    display: inline-table;
+}
+img{
+    width: 650px;
+    height:500px;
+}
