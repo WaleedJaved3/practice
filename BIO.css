@@ -1,8 +1,28 @@
-table[td]{
-    text-align: right;
-    display: inline-table;
+table{
+    line-break: 100px;
+    margin-left: 285px;
+    color:#000000;
+    font: 13px NeueEinstellung,-apple-system,BlinkMacSy;
 }
+
+
+
+/* table.t1{
+    line-height-step: 20px;
+}
+table.t2{
+    line-gap-override: 2px;
+} */
 img{
-    width: 1290px;
+    margin-left: 290px;
+    width: 700px;
     height:500px;
+}
+#context{
+    margin-left:287px;
+    font:17px Roboto, sans-serif; 
+    color:#7A7A7A;
+}
+h1{
+    margin-left:285px;
 }
