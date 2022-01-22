@@ -2,16 +2,26 @@ table{
     line-break: 100px;
     margin-left: 285px;
     color:#000000;
-    font: 13px NeueEinstellung,-apple-system,BlinkMacSy;
+    font: 13px Radnika,NeueEinstellung,-apple-system,BlinkMacSy;
+    /* padding: 10px; */
 }
+table h6{
+    font: 14px NeueEinstellung,-apple-system,BlinkMacSy; 
+    Margin: 0px 0px 8px;
+    color:#000000;
+    user-select: auto;
 
-
-
-/* table.t1{
-    line-height-step: 20px;
 }
-table.t2{
-    line-gap-override: 2px;
+#ta{
+    font: 14px Radnika,-apple-system,BlinkMacSy;
+    color:#7A7A7A;
+}
+#tw{
+    font: 14px Radnika,-apple-system,BlinkMacSy;
+    color:#7A7A7A;
+}
+/*table .tw [div]{
+    margin-left:10px;
 } */
 img{
     margin-left: 290px;
@@ -24,5 +34,13 @@ img{
     color:#7A7A7A;
 }
 h1{
-    margin-left:285px;
+    margin-left:350px;
+    margin-top: 0px;
+}    
+.fabfa-facebook-f{
+    font-size:36px;
+    color:rgb(227, 235, 241)
+}
+footer{
+    background-color: #000000;
 }
