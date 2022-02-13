@@ -6,3 +6,42 @@ footer{
     background-color: #000000;
     padding:80px 0px 30px;
 }
+.btn-secondary{
+    padding: 20px 25px ;
+    margin: 0px 0px 10px;
+    border:#ffffff;
+}
+button{
+    border: #ffffff;
+}
+.listed{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    width: 30%; 
+    margin: 5px;
+    padding: 5px;
+    
+    /* width: 20%; 
+    text-align: center;
+    display: inline-block;
+    border-image-width: 20px; */
+}
+.listed img{
+    width:240px;
+    height:400px;
+}
+main{
+    width: 68%;
+    
+    padding: 10px;
+}
+.listed div
+{
+    display:flex;
+    flex-direction:row;
+}
+
+.titledeed{
+    display: inline-flex;
+    Font:18px "Basic Commercial", Helvetica;
+}
