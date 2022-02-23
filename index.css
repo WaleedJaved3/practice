@@ -69,6 +69,12 @@ button{
     width:100%;
     height:100%;
 }
+.tpt button{
+    margin-left: 20px;
+    color: #ffffff;
+    font: 15px "Basic Commercial", sans-serif;
+    text-decoration: none;
+}
 .fpd{
     box-sizing: border-box;
     border: 1px  grey;
@@ -85,12 +91,13 @@ button{
     width:100%;
     height:100%;
 }
-.pa{
+.pa a{
     margin:0px 550px;
-    text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #858585;
+    font:15px "Basic Commercial", sans-serif;
 }
-.pa:hover{
+.pa a:hover{
     color:aqua ;
     /* text-align: center; */
 }
@@ -102,52 +109,193 @@ button{
 footer{
     height: 500px;
     background-color: #000000;
-    padding:80px 0px 30px;
+    /* padding:80px 0px 30px; */
 
 }
 footer div{
     margin-left: 28px;
-}
-.th h6{
-    color: white;
-    font-weight:2px;
-    /* margin-left: 0px; */
-    /* margin-right:2px; */
-    width: 20%;
-      
-     display: inline-block;  
-    flex-direction: row;
-     font-family: 'Calibri';
-    margin-top: 2px ;
-}
-.ft  h6{
-    color: white;
-    font-weight:2px;
-    /* margin-left: 0px; */
-    /* margin-right:2px; */
-    width: 20%;
-    display: inline-block;  
-    flex-direction: row;
-    font-family: 'Calibri';
-    margin-top: 2px ;
-}
-footer .st{
-   padding-top: 0%;
-   padding-left:60% ;
-} 
-footer h5{
-    color:white;
-    font-family: 'Gill Sans',  Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 0%;
-    font-weight:-10px;
- }
-footer p{
-    color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-    /* margin-top: 1%; */
- } 
-footer h6{
+}
+.th {
+    color:#ffffff;
+    padding-top: 30px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-weight: 50px; */
+    margin-bottom: 25px!important;
+    user-select: auto;
+}
+.th h5{
+    margin-top: 50px;
+    color:#ffffff;
+    font: 15px "Basic Commercial", sans-serif;
+    padding: 0px 15px;
+    margin-bottom: 25px!important;
+    user-select: auto;
+    font-family: var(--base-family);
+    font-style: var(--base-style);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-weight);
+    letter-spacing: var(--body-letter-spacing);
+}
+.th p{
+    margin-top: 0px;
+    padding: 0px 15px;
+    color: #858585;
+    font: 13px "Basic Commercial", sans-serif;
+    margin-bottom: 25px!important;
+    user-select: auto;
+    line-height: 17px;
+    margin-bottom: 25px;
     
-} 
-
+}
+.ft h5{
+    color: #ffffff;
+    font: 15px "Basic Commercial", sans-serif;
+    padding: 0px 15px;
+    /* display: inline;
+    flex-direction: row; */
+    /* margin-top: 50px; */
+    
+    user-select: auto;
+    font-family: var(--base-family);
+    font-style: var(--base-style);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-weight);
+    letter-spacing: var(--body-letter-spacing);
+}
+.ft a{
+    color: #858585;
+    font: 13px "Basic Commercial", sans-serif;
+    text-decoration: none;
+    padding: 0px 15px;
+    /* display: inline-block;
+    flex-direction: row; */
+    /* width: 20px; */
+}
+.tft h5{
+    color: #ffffff;
+    font: 15px "Basic Commercial", sans-serif;
+    /* display: inline;
+    flex-direction: row; */
+    margin-left: 160px;
+    margin-top: -220px;
+    padding: 0px 15px;
+    /* width: 20px; */
+    font-family: var(--base-family);
+    font-style: var(--base-style);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-weight);
+    letter-spacing: var(--body-letter-spacing);
+}
+.tft a{
+    color: #858585;
+    font: 13px "Basic Commercial", sans-serif;
+    margin-top: -250px;
+    margin-left: 160px;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+.eft h5{
+    color: #ffffff;
+    font: 15px "Basic Commercial", sans-serif;
+    margin-left: 360px;
+    margin-top: -180px;   
+    padding: 0px 15px; 
+    font-family: var(--base-family);
+    font-style: var(--base-style);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-weight);
+    letter-spacing: var(--body-letter-spacing);
+}
+.eft a{
+    color: #858585;
+    font: 13px "Basic Commercial", sans-serif;
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 360px;
+    margin-top: -590px;
+    padding: 0px 15px;
+    text-decoration: none;
+    
+}
+.st h5{
+    color: #ffffff;
+    font: 15px "Basic Commercial", sans-serif;
+    margin-left: 560px;
+    margin-top: -200px;
+    padding: 0px 15px;
+    font-family: var(--base-family);
+    font-style: var(--base-style);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-weight);
+    letter-spacing: var(--body-letter-spacing);
+}
+.st p{
+    color: #858585;
+    font: 12px "Basic Commercial", sans-serif;
+    margin-left: 560px;
+    padding: 0px 15px;
+}
+.fp h6{
+    color: #ffffff;
+    font: 12px "Basic Commercial", sans-serif;
+    margin-left: 560px;
+    padding: 0px 15px;
+    font-family: var(--base-family);
+    font-style: var(--base-style);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-weight);
+    letter-spacing: var(--body-letter-spacing);
+    
+}
+.fp p{
+    color:#858585;
+    font: 12px "Basic Commercial", sans-serif;
+    margin-left: 560px;
+    padding: 0px 15px;
+    
+}
+.lp h6{
+    color: #ffffff;
+    font: 15px "Basic Commercial", sans-serif;
+    margin-left: 960px;
+    margin-top: -180px;
+    padding: 0px 15px;
+    font-family: var(--base-family);
+    font-style: var(--base-style);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-weight);
+    letter-spacing: var(--body-letter-spacing);
+}
+.lp p{
+    color:#858585;
+    font: 13px "Basic Commercial", sans-serif;
+    margin-left: 1000px;
+    margin-top: 0px; 
+    /* padding: 0px 15px; */
+}
+footer hr{
+    color: #858585;
+    margin-top:188px;
+}
+.ll a{
+    color: #858585;
+    font: 13px "Basic Commercial", sans-serif;
+    text-decoration: none;
+    margin-left: 45px;
+}
+.ll p{
+    color: #858585;
+    display: inline;
+    /* flex-direction: row; */
+    font: 13px "Basic Commercial", sans-serif;
+    text-decoration: none;
+    margin-left: 55px;
+}
