@@ -15,6 +15,9 @@ nav a{
     font: 13px "Basic Commercial", sans-serif;
     padding:2px;
 }
+nav a:hover{
+    color: aqua;
+}
 .bn{
     background-image: url('Images/Logo.jpeg');
     background-size: cover;
@@ -25,88 +28,159 @@ nav a{
     justify-content: center;
     background-repeat:no-repeat ;
 }
-.mn button{
-    width: fit-content;
-    padding: 0px 120px;
+.bn button{
+    color: white;
+    text-decoration: none;
+    width:30%;
+    padding: 0px;
+}
+.bn button:hover{
+    color:#ffffff;
+    padding: 0px;
+}
+.bn a{
+    font:15px "Basic Commercial", sans-serif;
+    width: 100%;
+    color: black;
+    text-decoration:none ;
 }
 
-
+.bn a:hover{
+    color: aqua;
+}
+.mn a{
+    background-color: #ffffff;
+}
+/* .mn a:hover{
+    background-color: #ffffff;
+} */
 
 .titledeed{
-    padding:3%;
+    
+    font:15px "Basic Commercial", sans-serif;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    Font:18px "Basic Commercial", Helvetica;
+    margin-left: 350px;
+    padding:13px;
+
+}
+.titledeed h3{
+    padding-right: 20px;
+}
+.titledeed a{
+    color:#85858585;
+    text-decoration: none;
+}
+.titledeed a:hover{
+    color:aqua;
 }
 .listed{
+    background-image: url('Images/Logo.jpeg');
+    background-repeat: no-repeat;
     box-sizing: border-box;
     border: 1px  grey;
-    width: 20%; 
-    margin: 18px 28px;
-    height: 400px;
-    /* display:auto; */
+    margin: 38px 38px;
+    background-size:200px 500px;
+    height: 200px;
     display: inline-block;
     flex-direction: row;
-    /* margin-right: 12px;
-    padding-right: 10px; */
-}
-
-.listed img{
-    width:100%;
-    height:100%;
     
+}
+.listed a{
+    color: black;
+    text-decoration: none;
+
+}
+.listed a:hover{
+    color: aqua;
 }
 
 .spd{
-    /* box-sizing: border-box; */
-    border: 1px  grey;
-    width: 45%; 
+    background-image:url('Images/camera.jpg') ;
+    background-repeat: no-repeat;
+    display: inline-block;
+    flex-direction: row;
+    width: 45%;
+    /* align-items: center;
+    justify-content: center; */
+    height:320px ;
     margin: 5px 25px;
     
-    /* display:auto; */
-    display: inline-block;
-    flex-direction: row;
-    /* margin-right: 12px;
-    padding-right: 10px; */
 }
-.spd img{
-    width:100%;
-    height:100%;
+.spd button{
+    margin: 150px 225px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border: #ffffff;
+    background-color: #ffffff;
 }
+
+.spd a{
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.spd a:hover{
+    color: aqua;
+    background-color: #000000;
+}
+.spd button:hover{
+    font: "Basic Commercial", sans-serif;
+    background-color: #000000;
+    color: aqua;
+}
+
 .tpd{
-    box-sizing: border-box;
-    border: 1px  grey;
-    width: 28%; 
-    margin: 18px 28px;
-    height: 250px;
-    /* display:auto; */
-    display: inline-block;
+    background-image:url('Images/lenses.jpg') ;
+    background-repeat:repeat;
+    width: 28%;
+    height: 300px;
+    display:inline-block;
     flex-direction: row;
-    /* margin-right: 12px;
-    padding-right: 10px; */
+    margin: 18px 28px;
+
 }
-.tpd img{
-    width:100%;
-    height:100%;
+.tpd button{
+    color: black;
+    background-color: white;
+    width:40%;
+    justify-content: center;
+    align-items: center;
+    margin:100px 100px;
 }
-.btn {
+.tpd button:hover{
+    /* size: 80px;
+    color: aqua; */
+    background-color: #000000;
+}
+.tpd a:hover{
+    
+    color: aqua;
+    background-color: #000000;
+}
+/* .btn button:hover {
+
+    color: aqua;
+    border: 1px solid #000000;
+} */
+/* .btn {
     margin: 10px 70px;
     font: 13px "Basic Commercial", sans-serif;
     background-image: url('Images/controller.jpg');
-    background-size: cover;
+
     width: 70%;
-    margin-bottom:0px;
+    margin-bottom:10px;
     height: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-repeat:no-repeat ;
 }
-.btn button:hover {
-
-    color: aqua;
-    border: 1px solid #000000;
-}
+ */
 /* .btn button:hover{
     background-color: violet;
     
@@ -116,7 +190,7 @@ nav a{
     box-sizing: border-box;
     border: 1px  grey;
     width: 28%; 
-    margin: 18px 440px;
+    margin: 180px 440px;
     height: 360px;
     /* display:auto; */
     display: inline-block;
@@ -133,7 +207,6 @@ nav a{
     padding:20px 20px;
 }
 .pa a{
-    
     margin:0px 550px;
     text-decoration: none;
     color: #858585;
