@@ -137,11 +137,11 @@ nav a:hover{
 .tpd{
     background-image:url('Images/lenses.jpg') ;
     background-repeat:repeat;
-    width: 28%;
+    width: 25%;
     height: 300px;
     display:inline-block;
     flex-direction: row;
-    margin: 18px 28px;
+    margin: 18px 45px;
 
 }
 .tpd button{
@@ -153,8 +153,6 @@ nav a:hover{
     margin:100px 100px;
 }
 .tpd button:hover{
-    /* size: 80px;
-    color: aqua; */
     background-color: #000000;
 }
 .tpd a:hover{
@@ -162,45 +160,34 @@ nav a:hover{
     color: aqua;
     background-color: #000000;
 }
-/* .btn button:hover {
-
-    color: aqua;
-    border: 1px solid #000000;
-} */
-/* .btn {
-    margin: 10px 70px;
-    font: 13px "Basic Commercial", sans-serif;
-    background-image: url('Images/controller.jpg');
-
-    width: 70%;
-    margin-bottom:10px;
-    height: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat:no-repeat ;
-}
- */
-/* .btn button:hover{
-    background-color: violet;
-    
-    
-} */
 .fpd{
+    background-image:url('Images/headphones.jpg') ;
+    background-repeat:repeat;
+    width: 28%;
     box-sizing: border-box;
-    border: 1px  grey;
-    width: 28%; 
-    margin: 180px 440px;
-    height: 360px;
-    /* display:auto; */
+    height: 400px;
+    margin: 10px 440px;
     display: inline-block;
     flex-direction: row;
-    /* margin-right: 12px;
-    padding-right: 10px; */
 }
-.fpd img{
-    width:100%;
-    height:100%;
+.ban{
+    color: black;
+    background-color: white;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    margin:180px 100px;
+}
+.fpd button:hover{
+    background-color: black;
+}
+.ban:hover{
+    color: aqua;
+    background-color: white;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    margin:180px 100px;
 }
 .pa{
     margin-left: -10px;
@@ -216,7 +203,10 @@ nav a:hover{
     color:aqua ;
     /* text-align: center; */
 }
-
+.w-100{
+    width: 100%;
+    height: 450px;
+}
 
 footer{
     height: 500px;
