@@ -9,39 +9,34 @@
 <style>
 
 .fp{
-    
-    border: 1px solid salmon;
-    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
-    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
-    box-shadow: 0px -3px 45px 21px rgba(209, 10, 10, 0.35);
+    height: 284px;
+    width: 565px;
+    border: 2px solid salmon;
+    -webkit-box-shadow: -2px -1px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.425);
+    box-shadow: 0px -3px 45px 0px rgba(209, 10, 10, 0.35);
 }
-img{
-    float: left;
-    width: 200px;
-    margin-right: -30px;
-}
-.one{
+
+/* .one{
     display: inline;
     flex-direction: row;
-    
-    
-   
-}
-.one div{
-    
-    margin-bottom: 0%;
-    
-}
+} */
+
 .demo{
     background-color: teal;
-    float: right;
-    padding-right: 160px; 
-    padding-left: -10px;
     
+    width: 565px;
+    margin-right: 55%; 
 }
 .mago img{
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
     background-color: teal;
-    
+    background-position: ;
 } 
 .ale h1{
     display: inline-block;
@@ -49,8 +44,8 @@ img{
     font-family: monospace;
     align-items: flex-start;
     justify-items: flex-start;
-    /* padding-left: 20px;
-    margin-top: -100px; */
+     padding-left: 20px;
+    /*margin-top: -100px; */
 }
 .win {
     padding-left: 20px;
@@ -64,17 +59,23 @@ img{
     text-transform: uppercase;
     font: 15px "monospace";
     padding-left: 138px;
-    color: teal;
-    float: right;
+    color: black;
+    float:left;
     
 }
 .win span{
-    
+    padding-left: 5px;
     font-family: monospace;
 }
-
+.win p{
+    margin-top: 0px;
+    padding-left: 0px;
+    font-family: monospace;
+    color: #000000;
+}
 .dov{
     display: flex;
+    align-items:flex-start ;
     padding-left: 5px;
     padding-top: 0px;
     margin-bottom: -20px;
@@ -92,23 +93,20 @@ img{
     color: aliceblue;
     background-color: black; 
     border: 2px solid magenta;
-    font-weight: 100px;
+    font: 20px "Monospace";
 }
 .filk{
-    padding-left: 0px;
+    padding-left: 30px;
     display: inline-flex;
     flex-direction:row ;
-    
+    margin-top: -30px;
 }
 .bano{
     background-color: blueviolet;
-    /* background-position-x: center; */
     width: 260px;
-    height:220px;
-    margin-top: auto;
+    height:200px;
     padding-left: 200px;
-    padding-right: 160px; 
-    background-position: 10% 20%;
+    padding-right: 105px;  
 }
 .btn{
     margin-top: 1px;
@@ -131,7 +129,6 @@ img{
     color: aliceblue;
     background-color: black; 
     border: 2px solid magenta;
-    font-weight: 200px;
 }
 .ban{
     padding-top: 20px;
@@ -156,15 +153,17 @@ img{
 }
 .svg{
     padding-top: 30px;
-    padding-left: 20px;
-    
+    padding-left: 30px;
+    color: aliceblue;
 }
 .svg:hover{
     color: blueviolet;
 }
-.lio p{
-    padding-left:200px; 
-    margin-top: -80px;
+p{
+    padding-left:230px; 
+    margin-top: -60px;
+    margin-bottom: -30px;
+    padding-right: 0px;
 }
 
 </style>
@@ -186,19 +185,12 @@ img{
                 </div>
                 <div class="win">
                     <span>$90</span>
-                
                     <p> In Stock</p> 
                    
                 </div>
             </div>
             
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <br>
         <div class="bano">
             <div class="dov">
                 <ul>
