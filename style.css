@@ -1,4 +1,7 @@
-
+*{
+  margin: auto;
+  padding: auto;
+}
 /* nav{
     margin-top:-16px;
     background: #000000;

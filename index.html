@@ -34,20 +34,140 @@
         margin: auto;
         padding: auto;
       }
-      .container{
-        width: 1300px;
+      .wrap{
+        width: 1263px;
         height: 2500px;
       }
       .tp{
         color: #ffffff;
         background-color:#000000;
-        width: 1300px;
+        width:1263px;
         height:50px ;
-        margin:0px 0px 0px 0px ;
+        padding:0px 0px 0px 1000px ;
         display: flex;
         flex-direction: row;
       }
+      .tp span:hover{
+        color:blue;
+      }
+      hr{
+        color: #ffffff;
+        width: 2px;
+        margin: 0px;
+        padding: 0px;
+      }
+      .nbar{
+        background-color: #000000 ;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main{
+        width: 1263px;
+        height:1950px ;
+      }
       
+      .footer{
+        width: 1263px;
+        height: 500px;
+    
+        background-color: #000000;
+        padding: 0px 15px;
+      }
+      .ftophe{
+        display: flex;
+        flex-direction:row ;
+      }
+      .fh h5{
+        font: 16px "Poppins";
+        color: #ffffff;
+        padding: 30px 20px 0px 0px;
+      }
+      .fpa{
+        font: 12px "Poppins";
+        color: #ffffff;
+      }
+      .fhe{
+        display: flex;
+        flex-direction: row;
+        padding:0px 50px 0px 0px ;
+      }
+      .fs{
+        width: 400px;
+        height: 50px;
+        color: #ffffff;
+        background-color: #000000;
+        border: 2px solid white;
+      }
+      .fb{
+        width: 100px;
+        height: 50px;
+        color: #ffffff;
+        background-color: #000000;
+        margin:0px 0px 0px 10px ;
+      }
+      .fb:hover{
+        color: #000000;
+        background-color: #ffffff;
+      }
+      .fclink{
+        display: flex;
+        flex-direction: row;
+        float: left;
+        padding: 0px 0px 0px 30px;
+      }
+      .flo h5{
+        padding:10px 0px 0px 10px ;
+        font: 16px "Poppins";
+        color: #ffffff;
+      }
+      .flo a{
+        padding:10px 0px 0px 10px ;
+        font: 12px "Poppins";
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .flo a:hover{
+        color:aqua ;
+        /*background-color: #ffffff;*/
+      }
+      .flt h5{
+        padding:10px 0px 10px 10px ;
+        font: 16px "Poppins";
+        color: #ffffff;
+      }
+      .flt a{
+        padding:10px 0px 0px 10px ;
+        font: 12px "Poppins";
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .flt a:hover{
+        color:aqua ;
+        /*background-color: #ffffff;*/
+      }
+      .flth h5{
+        padding:10px 0px 30px 10px ;
+        font: 16px "Poppins";
+        color: #ffffff;
+      }
+      .flth a{
+        padding:0px 0px 0px 10px ;
+        font: 12px "Poppins";
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .flth a:hover{
+        color:aqua ;
+        /*background-color: #ffffff;*/
+      }
+      .fhelp{
+        padding: 0px 0px 0px 20px;
+      }
+      .fhelp h5{
+        font:16px "Poppins";
+        color: #ffffff;
+      }
        /*{*
         margin:auto;
         padding:auto;
@@ -74,9 +194,9 @@
         flex-direction: column;
         background-color: aqua ;
       }
-      <!-- .tp[input]{
+      .tp[input]{
         padding:0px 0px 0px 200px;
-      } -->
+      } 
       .container div{
         width: 100%;
         display: flex;
@@ -125,7 +245,10 @@
     <body>
 
       <!-- Whole Web Container -->
-      <div class="container">
+      
+      <div class="wrap">
+
+        <!--header section-->
         <header>
           <!-- <h1>HOME</h1> -->
           <div class="tp">
@@ -133,10 +256,10 @@
             <span><i class="fas fa-search"></i></span>
             <span>&#9783;</span>
             <span style="padding-bottom:2px; font-size:20px;">&#9825;</span>
-            <span style="padding:0px 0px 2px 0px ; ">&#128722;</span>
+            <span style="padding:0px 0px 2px 0px ;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
           </div>
-          
-          <nav class="nbar">
+          <hr>
+          <div class="nbar">
             
             <ul>
                 <a href="index.html">HOME</a>
@@ -147,12 +270,99 @@
                 <a href="THESHOP.html">THE SHOP</a>
                 <a href="BIO.html">TRENDING NOW</a>
             </ul>
-          </nav>
+          </div>
           <!--<input type="search" placeholder="search...">-->
         </header>
+
+
+        <!--main-->
+
+
+        <main>
+
+        </main>
+        
+        <!--footer-->
+
+        <footer>
+          <div class="footer">
+           <div class="ftophe"> 
+            <div class="fh">
+              <h5>NEWSLETTER SUBSCRIPTION</h5>
+              <p class="fpa">Sign up for Shella updates to receive information about new arrivals, future events and<br> specials.</p>
+            </div>
+            <div class="fhe">
+              <input type="search" class="fs" placeholder="Search your invert">
+              <button type="button" class="fb">Subscribe</button>
+            </div>
+          </div> 
+            
+            <div class="fclink">
+              <div class="flo">
+                <h5>SHOP NOW</h5>
+                <br>
+                <a href="index.html">HOME</a><br>
+                <a href="MENS.html">MENS</a><br>
+                <a href="WOMENS.html">WOMENS</a><br>
+                <a href="KIDS.html">KIDS</a><br>
+                <a href="ACCESSORIES.html">ACCESSORIES</a><br>
+                <a href="THESHOP.html">THE SHOP</a><br>
+                <a href="BIO.html">TRENDING NOW</a>
+              </div>
+              <div class="flt">
+                <h5>SALES & SPECIAL <br>OFFERS</h5>
+                <br>
+                <a href="">NEW ARRIVALS</a><br>
+                <a href="">SPECIAL PRODUCTS</a><br>
+                <a href="">WHAT'S HOT</a><br>
+                <a href="">TRENDING NOW</a><br>
+              
+              </div>
+              <div class="flth">
+                <h5>QUICK LINKS</h5>    
+                <br>
+                <a href="">ABOUT US</a><br>
+                <a href="">RETURN & EXCHANGE</a><br>
+                <a href="">SHIPPING DETAILS</a><br>
+                <a href="">PRIVACY POLICY</a><br>
+                <a href="">CONTACT</a><br>
+                <a href="">FAQs</a><br>
+              
+                
+              </div>
+            
+            </div>  
+            
+            <div class="fhelp">
+              
+              <h5>NEED ANY HELP?</h5>
+              <p>Have a question? You may find an answer in our FAQs.<br>
+                  But you can also contact us:</p>
+            </div>
+            <div class="fhelt">
+              <h6>Customer Services</h6>
+              <p>Call us: 0000000000<br>
+              Mon-Sat: 10:00 am - 7:00 pm<br>
+              Sun: 12:00 am - 9:00 pm<br>
+              Send us an email
+              </p>
+            </div>  
+            <div class="flink">
+              <h6>FOLLOW US</h6>
+              <p>facebook</p>
+              <p>instagram</p>
+            </div>  
+            <hr>
+            <div class="flast">
+              <a href="#"><em>WAQQI</em></a>  
+              <p>&copy; All rights are reserved!</p>
+            </div>
+          </div>
+        </footer>
+
       </div>
 
-
+       <button id="btt">Back To Top</button> 
 
 
       <!-- <script type="text/javascript" src="index.js" charset="utf-8"></script> -->
