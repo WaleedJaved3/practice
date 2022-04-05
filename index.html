@@ -18,7 +18,7 @@
 
     <!--Font Awesome-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Stylesheet--->
 
     <!--external css-->
@@ -61,6 +61,11 @@
         align-items: center;
         justify-content: center;
       }
+      .nbar a{
+        color: #ffffff;
+        text-decoration: none;
+        padding: 0px 0px 0px 80px;
+      }
 
       main{
         width: 1263px;
@@ -79,13 +84,15 @@
         flex-direction:row ;
       }
       .fh h5{
-        font: 16px "Poppins";
+        font: 20px "Poppins";
         color: #ffffff;
-        padding: 30px 20px 0px 0px;
+        padding: 30px 20px 0px 30px;
       }
+      
       .fpa{
         font: 12px "Poppins";
         color: #ffffff;
+        padding: 0px 20px 0px 30px;
       }
       .fhe{
         display: flex;
@@ -98,13 +105,15 @@
         color: #ffffff;
         background-color: #000000;
         border: 2px solid white;
+        margin:0px 0px 0px 20px ;
+        padding:0px 0px 0px 20px ;
       }
       .fb{
-        width: 100px;
+        width: 150px;
         height: 50px;
         color: #ffffff;
         background-color: #000000;
-        margin:0px 0px 0px 10px ;
+        margin:0px 0px 0px 20px ;
       }
       .fb:hover{
         color: #000000;
@@ -117,12 +126,12 @@
         padding: 0px 0px 0px 30px;
       }
       .flo h5{
-        padding:10px 0px 0px 10px ;
+        padding:10px 10px 0px 5px ;
         font: 16px "Poppins";
         color: #ffffff;
       }
       .flo a{
-        padding:10px 0px 0px 10px ;
+        padding:10px 0px 0px 5px ;
         font: 12px "Poppins";
         color: #ffffff;
         text-decoration: none;
@@ -132,12 +141,12 @@
         /*background-color: #ffffff;*/
       }
       .flt h5{
-        padding:10px 0px 10px 10px ;
+        padding:10px 0px 10px 50px ;
         font: 16px "Poppins";
         color: #ffffff;
       }
       .flt a{
-        padding:10px 0px 0px 10px ;
+        padding:10px 0px 0px 50px ;
         font: 12px "Poppins";
         color: #ffffff;
         text-decoration: none;
@@ -147,12 +156,12 @@
         /*background-color: #ffffff;*/
       }
       .flth h5{
-        padding:10px 0px 30px 10px ;
+        padding:10px 0px 30px 50px ;
         font: 16px "Poppins";
         color: #ffffff;
       }
       .flth a{
-        padding:0px 0px 0px 10px ;
+        padding:0px 0px 0px 50px ;
         font: 12px "Poppins";
         color: #ffffff;
         text-decoration: none;
@@ -161,12 +170,76 @@
         color:aqua ;
         /*background-color: #ffffff;*/
       }
-      .fhelp{
-        padding: 0px 0px 0px 20px;
+      .fblock{
+        float: left;
+        
       }
       .fhelp h5{
+        display: flex;
+        flex-direction: row;
+        font:15px "Poppins";
+        color: #ffffff;
+        padding:5px 0px 0px 128px ;
+      }
+      .fhelp p{
+        display: flex;
+        flex-direction: row;
+        font:10px "Poppins";
+        color: #ffffff;
+        padding:5px 0px 0px 150px ;
+      }
+      .fhelt h6{
+        display: flex;
+        flex-direction: row;
+        font:15px "Poppins";
+        color: #ffffff;
+        padding:5px 0px 0px 128px ;
+      }
+      .fhelt p{
+        display: flex;
+        flex-direction: row;
+        font:10px "Poppins";
+        color: #ffffff;
+        padding:5px 0px 0px 150px ;
+      }
+      .flink h6{
+        display: flex;
+        flex-direction: row;
         font:16px "Poppins";
         color: #ffffff;
+        padding:0px 0px 0px 570px ;
+      }
+      .flink a{
+        display: flex;
+        flex-direction: row;
+        font:10px "Poppins";
+        
+        color: #ffffff;
+        padding:0px 0px 0px 570px ;
+        text-decoration: none;
+        width: 100px;
+        height: 100px;
+      }
+      .flink a:hover{
+        color: aqua;
+      }
+      .ff{
+        float: left;
+        padding: 0px 0px 0px 100px;
+      }
+      .fin{
+        
+      }
+      .flink i{
+        color: #ffffff;
+        font-size: 10px ;
+        margin-top: -10px;
+        text-decoration: none;
+        padding: 0px 10px 20px 40px;
+      }
+      .flink i:hover{
+        background-color: white;
+        color: black;
       }
        /*{*
         margin:auto;
@@ -262,7 +335,7 @@
           <div class="nbar">
             
             <ul>
-                <a href="index.html">HOME</a>
+                <a href="index.html"> HOME</a>
                 <a href="MENS.html">MENS</a>
                 <a href="WOMENS.html">WOMENS</a>
                 <a href="KIDS.html">KIDS</a>
@@ -332,26 +405,29 @@
               </div>
             
             </div>  
-            
-            <div class="fhelp">
+            <div class="fblock">
               
-              <h5>NEED ANY HELP?</h5>
-              <p>Have a question? You may find an answer in our FAQs.<br>
-                  But you can also contact us:</p>
-            </div>
-            <div class="fhelt">
-              <h6>Customer Services</h6>
-              <p>Call us: 0000000000<br>
-              Mon-Sat: 10:00 am - 7:00 pm<br>
-              Sun: 12:00 am - 9:00 pm<br>
-              Send us an email
-              </p>
-            </div>  
+              <div class="fhelp">
+                
+                <h5>NEED ANY HELP?</h5>
+                <p>Have a question? You may find an answer in our FAQs.<br>
+                    But you can also contact us:</p>
+              </div>
+              <div class="fhelt">
+                <h6>Customer Services</h6>
+                <p>Call us: 0000000000<br>
+                Mon-Sat: 10:00 am - 7:00 pm<br>
+                Sun: 12:00 am - 9:00 pm<br>
+                Send us an email
+                </p>
+              </div>  
+            </div> 
             <div class="flink">
-              <h6>FOLLOW US</h6>
-              <p>facebook</p>
-              <p>instagram</p>
-            </div>  
+              <h6 style="padding-top: -300px;">FOLLOW US</h6>
+              <a href="https://facebook.com/" class="ff"> facebook  </a> <i class="fa fa-facebook"></i>
+              <a href="https://instagram.com/" class="fin"> instagram </a><i class="fa fa-instagram"></i>
+            </div>
+               
             <hr>
             <div class="flast">
               <a href="#"><em>WAQQI</em></a>  
