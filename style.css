@@ -2,207 +2,243 @@
   margin: auto;
   padding: auto;
 }
-/* nav{
-    margin-top:-16px;
-    background: #000000;
-  }
-  nav a{
-    text-decoration: none;
-    color: #ffffff;
-    font: 13px "Basic Commercial", sans-serif;
-    padding: 10px;
-  }
-  nav a:hover{
-    color: aqua;
-  } 
+
+/* whole page div style*/
+.wrap{
+  width: 1263px;
+  height: 2500px;
+}
+
+/* head section style*/
+.tp{
+  color: #ffffff;
+  background-color:#000000;
+  width:1263px;
+  height:50px ;
+  padding:0px 0px 0px 1000px ;
+  display: flex;
+  flex-direction: row;
+}
+.tp span:hover{
+  color:aqua;
+}
+hr{
+  color: #ffffff;
+  width: 2px;
+  margin: 0px;
+  padding: 0px;
+}
+.nbar{
+  background-color: #000000 ;
+  align-items: center;
+  justify-content: center;
+}
+.nbar a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0px 0px 0px 80px;
+}
+.nbar a:hover{
+  color: aqua;
+}
+
+/* footer style*/
+
+.footer{
+  width: 1263px;
+  height: 500px;
+
+  background-color: #000000;
+  padding: 0px 15px;
+}
+.ftophe{
+  display: flex;
+  flex-direction:row ;
+}
+.fh h5{
+  font: 20px "Poppins";
+  color: #ffffff;
+  padding: 30px 20px 0px 30px;
+}
+
+.fpa{
+  font: 12px "Poppins";
+  color: #ffffff;
+  padding: 0px 20px 0px 30px;
+}
+.fhe{
+  display: flex;
+  flex-direction: row;
+  padding:0px 50px 0px 0px ;
+}
+.fs{
+  width: 400px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid white;
+  margin:0px 0px 0px 20px ;
+  padding:0px 0px 0px 20px ;
+}
+.fb{
+  width: 150px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #000000;
+  margin:0px 0px 0px 20px ;
+}
+.fb:hover{
+  color: #000000;
+  background-color: #ffffff;
+}
+.fclink{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  padding: 0px 0px 0px 30px;
+}
+.flo h5{
+  padding:10px 10px 0px 5px ;
+  font: 16px "Poppins";
+  color: #ffffff;
+}
+.flo a{
+  padding:10px 0px 0px 5px ;
+  font: 12px "Poppins";
+  color: #ffffff;
+  text-decoration: none;
+}
+.flo a:hover{
+  color:aqua ;
+  /*background-color: #ffffff;*/
+}
+.flt h5{
+  padding:10px 0px 10px 50px ;
+  font: 16px "Poppins";
+  color: #ffffff;
+}
+.flt a{
+  padding:10px 0px 0px 50px ;
+  font: 12px "Poppins";
+  color: #ffffff;
+  text-decoration: none;
+}
+.flt a:hover{
+  color:aqua ;
+  /*background-color: #ffffff;*/
+}
+.flth h5{
+  padding:10px 0px 30px 50px ;
+  font: 16px "Poppins";
+  color: #ffffff;
+}
+.flth a{
+  padding:0px 0px 0px 50px ;
+  font: 12px "Poppins";
+  color: #ffffff;
+  text-decoration: none;
+}
+.flth a:hover{
+  color:aqua ;
+  /*background-color: #ffffff;*/
+}
+.fblock{
+  float: left;
+  padding: 0px 130px 0px 0px;
   
-  header p{
-    color: #858585;
-    font:9px "Basic Commercial", sans-serif;
-    padding-left: 30px;
-    margin-top: 20px;
-    margin-bottom: -100px;
-  }
-  header a{
-    text-decoration: none;
-  }
-  .p{
-    color: #858585;
-    font:9px "Basic Commercial", sans-serif;
-    text-decoration: none;
-  }
-  .p:hover{
-    color: aqua;
-  }
-  .side{
-    background-attachment: scroll;
-    font:15px "Basic Commercial", sans-serif;
-    color:#858585;
-    
-   margin-top: 120px;
-    text-decoration: none;
-  }
-  ul {
-    list-style-type: none;
-  }
-  .side li{
-    font:13px "Basic Commercial", sans-serif;
-  }
+}
+.fhelp h5{
+  display: flex;
+  flex-direction: row;
+  font:15px "Poppins";
+  color: #ffffff;
+  padding:5px 0px 0px 128px ;
+}
+.fhelp p{
+  display: flex;
+  flex-direction: row;
+  font:10px "Poppins";
+  color: #ffffff;
+  padding:5px 0px 25px 150px ;
+}
+.fhelt h6{
+  display: flex;
+  flex-direction: row;
+  font:15px "Poppins";
+  color: #ffffff;
+  padding:5px 0px 0px 128px ;
+}
+.fhelt p{
+  display: flex;
+  flex-direction: row;
+  font:10px "Poppins";
+  color: #ffffff;
+  padding:5px 0px 0px 150px ;
+}
+
+.flink h6{
+  font:16px "Poppins";
+  color: #ffffff;
+  padding:0px 0px 0px 600px ;
   
-  .display{
-    padding-left: 120px;
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    margin-right:20px ;
-  }
+}
+.flink a{
+  font:15px "Poppins";
+  color: #ffffff;
+  padding-left:0px ;
+  text-decoration: none;
+  width: 10px;
+  height: 10px;
+  padding-bottom:10px ;
+}
+.flink a:hover{
+  color: aqua;
+}
+
+
+.flink i{
+  color: #ffffff;
+  font-size: 10px ;
+  width: 2px;
+  height: auto;
+  text-decoration: none;
+  padding: 0px 0px 0px 50px;
+}
+.flink i:hover{
   
-footer{
-    height: 500px;
-    background-color: #000000;
-  
-  }
-  footer div{
-    margin-left: 28px;
-    
-  }
-  .th {
-    color:#ffffff;
-    display: inline-block;
-    flex-direction: row;
-  }    
-  
-  .th h5{
-    margin-top: 50px;
-    color:#ffffff;
-    font: 15px "Basic Commercial", sans-serif;
-    padding: 0px 15px;
-    
-    font-family: var(--base-family);
-    font-style: var(--base-style);
-    font-size: var(--body-size);
-    line-height: var(--body-line-height);
-    font-weight: var(--body-weight);
-    letter-spacing: var(--body-letter-spacing);
-  }
-  .th p{
-    margin-top: 0px;
-    padding: 0px 15px;
-    color: #858585;
-    font: 13px "Basic Commercial", sans-serif;
-    margin-bottom: 25px!important;
-    user-select: auto;
-    line-height: 17px;
-    margin-bottom: 25px;
-    
-  }
-  
- .th button:hover{    
-    color: #000000;
-    background-color: #ffffff;
-  
-  }
-  
-  .ft h5{
-    color: #ffffff;
-    font: 15px "Basic Commercial", sans-serif;
-    padding: 0px 15px;
-    font-family: var(--base-family);
-    font-style: var(--base-style);
-    font-size: var(--body-size);
-    line-height: var(--body-line-height);
-    font-weight: var(--body-weight);
-    letter-spacing: var(--body-letter-spacing);
-  }
-  .ft a{
-    color: #858585;
-    font: 13px "Basic Commercial", sans-serif;
-    text-decoration: none;
-    padding: 0px 15px;
-  }
-  .tft h5{
-    color: #ffffff;
-    font: 15px "Basic Commercial", sans-serif;
-    margin-left: 160px;
-    margin-top: -220px;
-    padding: 0px 15px;
-    font-family: var(--base-family);
-    font-style: var(--base-style);
-    font-size: var(--body-size);
-    line-height: var(--body-line-height);
-    font-weight: var(--body-weight);
-    letter-spacing: var(--body-letter-spacing);
-  }
-  .tft a{
-    color: #858585;
-    font: 13px "Basic Commercial", sans-serif;
-    margin-top: -250px;
-    margin-left: 160px;
-    text-decoration: none;
-    padding: 0px 15px;
-  }
-  .eft h5{
-    color: #ffffff;
-    font: 15px "Basic Commercial", sans-serif;
-    margin-left: 360px;
-    margin-top: -180px;   
-    padding: 0px 15px; 
-    font-family: var(--base-family);
-    font-style: var(--base-style);
-    font-size: var(--body-size);
-    line-height: var(--body-line-height);
-    font-weight: var(--body-weight);
-    letter-spacing: var(--body-letter-spacing);
-  }
-  .eft a{
-    color: #858585;
-    font: 13px "Basic Commercial", sans-serif;
-    display: inline-block;
-    flex-direction: row;
-    margin-left: 360px;
-    margin-top: -590px;
-    padding: 0px 15px;
-    text-decoration: none;
-    
-  }
-  
-  
-  .lp h6{
-    color: #ffffff;
-    font: 15px "Basic Commercial", sans-serif;
-    margin-left: 960px;
-    padding: 0px 15px;
-    font-family: var(--base-family);
-    font-style: var(--base-style);
-    font-size: var(--body-size);
-    line-height: var(--body-line-height);
-    font-weight: var(--body-weight);
-    letter-spacing: var(--body-letter-spacing);
-  }
-  .lp p{
-    color:#858585;
-    font: 13px "Basic Commercial", sans-serif;
-    margin-left: 900px;
-   
-  }
-  .ll hr{
-    color: #faf2f2;
-    
-  }
-  .ll{
-    margin-top:-60px ;
-  }
-  
-  .ll a{
-    color: #858585;
-    font: 13px "Basic Commercial", sans-serif;
-    text-decoration: none;
-    margin-left: 45px;
-  }
-  .ll p{
-    color: #858585;
-    display: inline;
-    font: 13px "Basic Commercial", sans-serif;
-    text-decoration: none;
-    margin-left: 55px;
-  } */
+  color: aqua;
+}
+.flast{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: auto;
+  height: 20px;
+}
+
+.flast a{
+  color: #ffffff;
+  padding: 40px 30px ;
+  text-decoration: none;
+ 
+  float:left;
+}
+.flast a:hover{
+  color: aqua;
+}
+.flast p{
+  color: #ffffff;
+  padding: 45px 0px 0px 10px;
+  text-decoration: none;
+  font: 12px "Poppins";
+}
+.btt a{
+ float: right;
+ margin-top: 0px; 
+ color: #ffffff;
+ text-decoration:none ;
+ padding: 70px 60px 0px 0px;
+}
+.btt a:hover{
+  color: aqua;
+}

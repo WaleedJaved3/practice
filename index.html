@@ -30,248 +30,9 @@
     
     <!--internal css-->
     <style>
-      *{
-        margin: auto;
-        padding: auto;
-      }
-      .wrap{
-        width: 1263px;
-        height: 2500px;
-      }
-      .tp{
-        color: #ffffff;
-        background-color:#000000;
-        width:1263px;
-        height:50px ;
-        padding:0px 0px 0px 1000px ;
-        display: flex;
-        flex-direction: row;
-      }
-      .tp span:hover{
-        color:aqua;
-      }
-      hr{
-        color: #ffffff;
-        width: 2px;
-        margin: 0px;
-        padding: 0px;
-      }
-      .nbar{
-        background-color: #000000 ;
-        align-items: center;
-        justify-content: center;
-      }
-      .nbar a{
-        color: #ffffff;
-        text-decoration: none;
-        padding: 0px 0px 0px 80px;
-      }
-      .nbar a:hover{
-        color: aqua;
-      }
-
       main{
         width: 1263px;
         height:1950px ;
-      }
-      
-      .footer{
-        width: 1263px;
-        height: 500px;
-    
-        background-color: #000000;
-        padding: 0px 15px;
-      }
-      .ftophe{
-        display: flex;
-        flex-direction:row ;
-      }
-      .fh h5{
-        font: 20px "Poppins";
-        color: #ffffff;
-        padding: 30px 20px 0px 30px;
-      }
-      
-      .fpa{
-        font: 12px "Poppins";
-        color: #ffffff;
-        padding: 0px 20px 0px 30px;
-      }
-      .fhe{
-        display: flex;
-        flex-direction: row;
-        padding:0px 50px 0px 0px ;
-      }
-      .fs{
-        width: 400px;
-        height: 50px;
-        color: #ffffff;
-        background-color: #000000;
-        border: 2px solid white;
-        margin:0px 0px 0px 20px ;
-        padding:0px 0px 0px 20px ;
-      }
-      .fb{
-        width: 150px;
-        height: 50px;
-        color: #ffffff;
-        background-color: #000000;
-        margin:0px 0px 0px 20px ;
-      }
-      .fb:hover{
-        color: #000000;
-        background-color: #ffffff;
-      }
-      .fclink{
-        display: flex;
-        flex-direction: row;
-        float: left;
-        padding: 0px 0px 0px 30px;
-      }
-      .flo h5{
-        padding:10px 10px 0px 5px ;
-        font: 16px "Poppins";
-        color: #ffffff;
-      }
-      .flo a{
-        padding:10px 0px 0px 5px ;
-        font: 12px "Poppins";
-        color: #ffffff;
-        text-decoration: none;
-      }
-      .flo a:hover{
-        color:aqua ;
-        /*background-color: #ffffff;*/
-      }
-      .flt h5{
-        padding:10px 0px 10px 50px ;
-        font: 16px "Poppins";
-        color: #ffffff;
-      }
-      .flt a{
-        padding:10px 0px 0px 50px ;
-        font: 12px "Poppins";
-        color: #ffffff;
-        text-decoration: none;
-      }
-      .flt a:hover{
-        color:aqua ;
-        /*background-color: #ffffff;*/
-      }
-      .flth h5{
-        padding:10px 0px 30px 50px ;
-        font: 16px "Poppins";
-        color: #ffffff;
-      }
-      .flth a{
-        padding:0px 0px 0px 50px ;
-        font: 12px "Poppins";
-        color: #ffffff;
-        text-decoration: none;
-      }
-      .flth a:hover{
-        color:aqua ;
-        /*background-color: #ffffff;*/
-      }
-      .fblock{
-        float: left;
-        padding: 0px 130px 0px 0px;
-        
-      }
-      .fhelp h5{
-        display: flex;
-        flex-direction: row;
-        font:15px "Poppins";
-        color: #ffffff;
-        padding:5px 0px 0px 128px ;
-      }
-      .fhelp p{
-        display: flex;
-        flex-direction: row;
-        font:10px "Poppins";
-        color: #ffffff;
-        padding:5px 0px 25px 150px ;
-      }
-      .fhelt h6{
-        display: flex;
-        flex-direction: row;
-        font:15px "Poppins";
-        color: #ffffff;
-        padding:5px 0px 0px 128px ;
-      }
-      .fhelt p{
-        display: flex;
-        flex-direction: row;
-        font:10px "Poppins";
-        color: #ffffff;
-        padding:5px 0px 0px 150px ;
-      }
-      
-      .flink h6{
-        font:16px "Poppins";
-        color: #ffffff;
-        padding:0px 0px 0px 600px ;
-        
-      }
-      .flink a{
-        font:15px "Poppins";
-        color: #ffffff;
-        padding-left:0px ;
-        text-decoration: none;
-        width: 10px;
-        height: 10px;
-        padding-bottom:10px ;
-      }
-      .flink a:hover{
-        color: aqua;
-      }
-      
-      
-      .flink i{
-        color: #ffffff;
-        font-size: 10px ;
-        width: 2px;
-        height: auto;
-        text-decoration: none;
-        padding: 0px 0px 0px 50px;
-      }
-      .flink i:hover{
-        
-        color: aqua;
-      }
-      .flast{
-        display: flex;
-        flex-direction: row;
-        float: left;
-        width: auto;
-        height: 20px;
-      }
-      
-      .flast a{
-        color: #ffffff;
-        padding: 40px 30px ;
-        text-decoration: none;
-       
-        float:left;
-      }
-      .flast a:hover{
-        color: aqua;
-      }
-      .flast p{
-        color: #ffffff;
-        padding: 45px 0px 0px 10px;
-        text-decoration: none;
-        font: 12px "Poppins";
-      }
-      .btt a{
-       float: right;
-       margin-top: 0px; 
-       color: #ffffff;
-       text-decoration:none ;
-       padding: 70px 60px 0px 0px;
-      }
-      .btt a:hover{
-        color: aqua;
       }
        /*{*
         margin:auto;
@@ -384,6 +145,189 @@
 
 
         <main>
+          <div class="main">   
+
+            <!--First div-->
+
+            <div class="fpd">
+
+              
+              <div class="listed">
+                <a href="">
+                </a>
+                <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                <p>Rs.2,999.00/-</p>
+                <button>ADD TO CART</button>
+                <a href="Product-details.html" class="button"target="_blank">More Info</a>
+                <!-- <button>ADD TO CART</button>
+                <a href="Product-details.html" class="button"target="_blank">More Info</a> -->
+                  <a href="Product-details.html"class="button" target="_blank">Add to cart</a>
+              </div>
+
+
+              <div>
+                <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                <p>Rs.2,999.00/-</p>
+                <button>ADD TO CART</button>
+                <a href="Product-details.html" class="button"target="_blank">More Info</a>
+                <!-- <button>ADD TO CART</button>
+                <a href="Product-details.html" class="button"target="_blank">More Info</a> -->
+                  <a href="Product-details.html"class="button" target="_blank">Add to cart</a>
+              </div>
+
+              <div>
+        
+        
+        
+        
+        
+                <!--<a href="Product-details.html" class="button"target="_blank">More Info</a>
+                  <a href="Product-details.html"class="button" target="_blank">Add to cart</a>
+              </div> --> 
+              </div> 
+
+            </div>
+
+
+
+            <!--2nd div-->
+    
+            <div>
+              <div class="spd">
+                
+                  <a href="">
+                    <img src="Images/camera.jpg" alt="1st product">
+                  </a>
+                  <!-- <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                  <p>Rs.2,999.00/-</p> -->
+                  <!-- <button>ADD TO CART</button>
+                  <a href="Product-details.html" class="button"target="_blank">More Info</a> -->
+                    <!-- <a href="Product-details.html"class="button" target="_blank">Add to cart</a> -->
+                
+              </div>
+              <div class="spd">
+                
+                <a href="">
+                  <img src="Images/camera.jpg" alt="1st product">
+                </a>
+                <!-- <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                <p>Rs.2,999.00/-</p> -->
+                <!-- <button>ADD TO CART</button>
+                <a href="Product-details.html" class="button"target="_blank">More Info</a> -->
+                  <!-- <a href="Product-details.html"class="button" target="_blank">Add to cart</a> -->
+              
+              </div>
+            </div>
+
+
+            <!--3rd div-->
+              <div>
+                
+                <div class="tpd">
+                  <a href="">
+                    <img src="Images/camera.jpg" alt="1st product">
+                  </a>
+                  <!-- <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                  <p>Rs.2,999.00/-</p> -->
+                  <!--<button>ADD TO CART</button>
+                  <a href="Product-details.html" class="button"target="_blank">More Info</a>-->
+                  <!-- <a href="Product-details.html"class="button" target="_blank">Add to cart</a> -->
+                </div>
+                
+                <div class="tpd">
+                  <a href="">
+                    <img src="Images/controller.jpg" alt="1st product">
+                  </a>
+                  <!-- <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                  <p>Rs.2,999.00/-</p> -->
+                  <!--<button>ADD TO CART</button>
+                  <a href="Product-details.html" class="button"target="_blank">More Info</a>-->
+                  <!-- <a href="Product-details.html"class="button" target="_blank">Add to cart</a> -->
+                </div>
+                
+                <div class="tpd">
+                  <a href="">
+                    <img src="Images/cables.jpg" alt="1st product">
+                  </a>
+                  <!-- <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                  <p>Rs.2,999.00/-</p> -->
+                  <!--<button>ADD TO CART</button>
+                  <a href="Product-details.html" class="button"target="_blank">More Info</a>-->
+                    <!-- <a href="Product-details.html"class="button" target="_blank">Add to cart</a> -->
+                </div>
+                
+              </div> 
+
+
+              <!--fpd-->
+
+
+                <div>
+                  <div class="fpd">
+                    <a href="">
+                      <img src="Images/headphones.jpg" alt="1st product">
+                    </a>
+                    <!-- <p>CALVIN KLEIN PACK OF 5 SOCKS</p>
+                    <p>Rs.2,999.00/-</p> -->
+                    <!--<button>ADD TO CART</button>
+                    <a href="Product-details.html" class="button"target="_blank">More Info</a>-->
+                      <!-- <a href="Product-details.html"class="button" target="_blank">Add to cart</a> -->
+                  </div>
+                
+                </div>
+
+
+                <div class="pa">
+                  <p><a href="#">BEST SELLING</a></p>
+                  </div>
+                  <!--pics slideshow-->
+                  
+              
+                  <!--Carosel-->
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Images/camera.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/cables.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/controller.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+
+
+
+          </div>
 
         </main>
         
