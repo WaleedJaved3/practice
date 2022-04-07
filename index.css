@@ -2,105 +2,46 @@
     margin:auto;
     padding: auto;    
 }    
-
-nav{
-    margin-top:-16px;
-    background: #000000;
-}
-nav a{
-    text-decoration: none;
-    color: #ffffff;
-    font: 13px "Basic Commercial", sans-serif;
-    padding: 10px;
+.banner{
+    background-image: url("Images/1.jpg");
+    width: 1263px;
+    height: 500px;
+    border: 2px solid #00000000;
     
 }
-nav a:hover{
-    color: aqua;
+.mn{
+    padding: 500px;
 }
-.bn{
-    background-image: url('Images/Logo.jpeg');
-    background-size: cover;
-    width: 100%;
-    height: 580px;
-    display: flex;
-    align-items: center;
+.banner button{
     justify-content: center;
-    background-repeat:no-repeat ;
-}
-.bn button{
-    color: white;
-    text-decoration: none;
-    width:30%;
+    align-items: center;    
+    margin: 220px 510px;
     padding: 0px;
+    width: 200px;
+    height: 60px;
 }
-.bn button:hover{
-    color:#ffffff;
-    padding: 0px;
-}
-.bn a{
-    font:15px "Basic Commercial", sans-serif;
-    width: 100%;
-    color: black;
-    text-decoration:none ;
-}
-
-.bn a:hover{
+.banner button:hover{
     color: aqua;
+    background-color: white;
 }
-.mn a{
-    background-color: #ffffff;
-}
-.mn a:hover{
-    background-color: #ffffff;
-} 
-.titledeed{
-    
-    font:15px "Basic Commercial", sans-serif;
-    width: fit-content;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-left: 350px;
-    padding:13px;
+.banner button a{
+    width: 130px;
+    height: 50px;
 
-}
-.titledeed h3{
-    padding-right: 20px;
-}
-.titledeed a{
-    color:#85858585;
     text-decoration: none;
 }
-.titledeed a:hover{
-    color:aqua;
-}
-.listed{
-    background-image: url('Images/Logo.jpeg');
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    border: 1px  grey;
-    margin: 38px 38px;
-    background-size:200px 250px;
-    height: 200px;
-    display: inline-block;
-    flex-direction: row;
-    
-}
-.listed a{
-    color: black;
-    text-decoration: none;
-
-}
-.listed a:hover{
+.banner button a:hover{
     color: aqua;
+    background-color: white;
 }
-
+/* 
 .spd{
     background-image:url('Images/camera.jpg') ;
     background-repeat: no-repeat;
     display: inline-block;
     flex-direction: row;
-    width: 45%;
+    width: 10%;
+    height: 10%;
     align-items: center;
     justify-content: center; 
     height:320px ;
@@ -206,4 +147,4 @@ nav a:hover{
     height: 450px;
 }
 
-
+ */
