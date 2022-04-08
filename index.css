@@ -4,6 +4,7 @@
 }    
 .banner{
     background-image: url("Images/1.jpg");
+    background-repeat: no-repeat;
     width: 1263px;
     height: 500px;
     border: 2px solid #00000000;
@@ -34,45 +35,65 @@
     color: aqua;
     background-color: white;
 }
-/* 
-.spd{
-    background-image:url('Images/camera.jpg') ;
-    background-repeat: no-repeat;
-    display: inline-block;
+
+.spd ul{
+    display: flex;
     flex-direction: row;
-    width: 10%;
-    height: 10%;
+    margin: 25px 200px 0px 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.spd ul a{
+    text-decoration:none ;
+    padding: 0px 10px 0px 20px;
+    align-items: center;
+    justify-content: center;
+    font: 10px "Poppins";
+}
+.listed{
+    background-image:url('Images/headphones.jpg') ;
+    background-size: 500px ;
+    background-repeat: no-repeat;
+    display: inline;
+    flex-direction: row;
+    float: left;
+    width: 20%;
     align-items: center;
     justify-content: center; 
     height:320px ;
-    margin: 5px 25px;
+    background-origin:padding-box; 
+    padding:15px 30px 10px 30px; 
+    margin: 20px 30px 10px 30px; 
     
 }
-.spd button{
-    margin: 150px 225px;
-    width: 200px;
+.listed button{
+    width: 120px;
+    height: 30px;
     justify-content: center;
     align-items: center;
-    border: #ffffff;
-    background-color: #ffffff;
+    border: #000000;
+
 }
 
 .spd a{
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #000000;
-    background-color: #ffffff;
 }
 
 .spd a:hover{
     color: aqua;
-    background-color: #000000;
 }
 .spd button:hover{
     font: "Basic Commercial", sans-serif;
     background-color: #000000;
     color: aqua;
 }
-
+ /*
 .tpd{
     background-image:url('Images/lenses.jpg') ;
     background-repeat:repeat;
