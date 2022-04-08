@@ -70,12 +70,29 @@
 .listed button{
     width: 120px;
     height: 30px;
+    width: 80px;
+    display: flex;
+    flex-direction:row ;
+    font: 10px "Poppins";
     justify-content: center;
     align-items: center;
     border: #000000;
-
+    margin: 140px 10px 0px 0px;
+    display: inline-flex;
+    flex: wrap;
 }
-
+.button{
+    margin: 190px 5px 0px 2px;
+}
+.svg_heart{
+    color: white;
+    font: 20px "Poppins";
+    margin: 170px 0px 0px 2px;
+}
+.svg_heart:hover{
+    color: aqua;
+    font: 20px "Poppins";
+}
 .spd a{
     width: 120px;
     height: 30px;
