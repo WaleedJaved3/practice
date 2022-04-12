@@ -3,16 +3,15 @@
     padding: auto;    
 }    
 .banner{
-    background-image: url("Images/1.jpg");
+    background-image: url("Images/1.jpg"); 
     background-repeat: no-repeat;
-    width: 1263px;
+    background-size:1263px 500px;
+    width: 100%;
     height: 500px;
     border: 2px solid #00000000;
     
 }
-.mn{
-    padding: 500px;
-}
+
 .banner button{
     justify-content: center;
     align-items: center;    
@@ -81,13 +80,22 @@
     display: inline-flex;
     flex: wrap;
 }
-.listsize{
-    background-color: aliceblue;
+/* .listsize{
+    align-items: center;
+
+
+}  
+.listsize p{
+    display: flex;
+    flex-direction: row;
+    font: 10px "Poppins";
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
     color: aqua;
-}
+}*/
 .button{
      font: 13px "Poppins";
-     /*padding: 140px 5px 0px 2px; */
 }
 .svg_heart{
     color: white;
@@ -115,27 +123,39 @@
     background-color: #000000;
     color: aqua;
 }
- /*
+ 
 .tpd{
     background-image:url('Images/lenses.jpg') ;
     background-repeat:repeat;
     width: 25%;
-    height: 300px;
+    height: 130px;
     display:inline-block;
     flex-direction: row;
     margin: 18px 45px;
 
 }
-.tpd button{
+.tpd p{
+    padding: 2px 0px 10px 40px;
+}
+.tpd a{
+    width: 200px;
+    height: 30px;
+    margin:0px 40px 1px 40px;
+}
+.butt{
     color: black;
-    background-color: white;
-    width:40%;
+    background-color: #ffffff;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
-    margin:100px 100px;
 }
-.tpd button:hover{
-    background-color: #000000;
+.bonn{
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 .tpd a:hover{
     
@@ -143,34 +163,37 @@
     background-color: #000000;
 }
 .fpd{
-    background-image:url('Images/headphones.jpg') ;
+    background-image:url('Images/controller.jpg') ;
     background-repeat:repeat;
-    width: 28%;
+    width: 50%;
     box-sizing: border-box;
-    height: 400px;
-    margin: 10px 440px;
+    height: 150px;
+    margin: 10px 300px 0px 300px; 
     display: inline-block;
     flex-direction: row;
 }
-.ban{
-    color: black;
+.fpd p{
+    color: #ffffff;
+}
+/*.fpd a{
+    text-decoration: none;
     background-color: white;
     width:50%;
     justify-content: center;
     align-items: center;
     margin:180px 100px;
 }
-.fpd button:hover{
+ .fpd a:hover{
     background-color: black;
 }
-.ban:hover{
+.fpd a:hover{
     color: aqua;
-    background-color: white;
+    background-color: #000000;
     width:50%;
     justify-content: center;
     align-items: center;
     margin:180px 100px;
-}
+}/*
 .pa{
     margin-left: -10px;
     padding:20px 20px;
