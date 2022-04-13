@@ -174,8 +174,9 @@
 }
 .fpd p{
     color: #ffffff;
+    padding: 2px 40px 17px 10px;
 }
-/*.fpd a{
+.fpd a{
     text-decoration: none;
     background-color: white;
     width:50%;
@@ -193,7 +194,7 @@
     justify-content: center;
     align-items: center;
     margin:180px 100px;
-}/*
+}
 .pa{
     margin-left: -10px;
     padding:20px 20px;
@@ -201,8 +202,8 @@
 .pa a{
     margin:0px 550px;
     text-decoration: none;
-    color: #858585;
-    font:15px "Basic Commercial", sans-serif;
+    color: #000000;
+    font:15px "Poppins", sans-serif;
 }
 .pa a:hover{
     color:aqua ;
@@ -210,7 +211,6 @@
 }
 .w-100{
     width: 100%;
-    height: 450px;
+    height: 290px;
 }
 
- */
