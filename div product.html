@@ -7,77 +7,65 @@
     <title>Product display</title>
     
 <style>
-
+ /*The whole div product*/  
 .wp{
-    height: 284px;
-    width: 565px;
-    border: 2px solid salmon;
+    height: 230px;
+    width: 500px;
+    margin: 10px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
     -webkit-box-shadow: -2px -1px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.425);
     box-shadow: 0px -3px 45px 0px rgba(209, 10, 10, 0.35);
 }
-
-
-.demo{
-    background-color: teal;
-    
-    width: 565px;
-    margin-right: 55%; 
-}
-.mago img{
+ /*Image */  
+ .wpimg img{
+    position: relative;
     float: left;
     width: 200px;
     height: 150px;
-    margin-left: 20px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    background-color: teal;
-    
-} 
-.ale h1{
-    display: inline-block;
-    flex-direction:row ;
-    font-family: monospace;
-    align-items: flex-start;
-    justify-items: flex-start;
-     padding-left: 20px;
-    /*margin-top: -100px; */
-}
-.win {
     padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+
+} 
+/*Upper body */
+.wpo{
+    display: inline;
+    flex-direction:row ;
+    /*height: 30px;*/
+    width: 500px; 
+    float: left; 
+}
+
+.wpu{
+    font:10px "Poppins" ;
+    height: 90px;
+    background-color: aqua;
+    /*padding-left: 20px 0px 0px 0px;*/
+}
+.hon {
+    /*padding-left: 20px;
     margin-top: 0px;
-    margin-left: 12px;
+    margin-left: 12px;*/
     display: inline-flex;
     flex-direction:row ;
     
 }
-.win p{
+.wpdo span{
+    font-size:15px;
+    /*padding:0px 1px 2px 0px;*/
+}
+.wpdo p{
     text-transform: uppercase;
-    font: 15px "monospace";
-    padding-left: 138px;
-    color: black;
-    float:left;
-    
-}
-.win span{
-    padding-left: 5px;
-    font-family: monospace;
-}
-.win p{
-    margin-top: 0px;
-    padding-left: 0px;
-    font-family: monospace;
+    font-size:20px;
     color: #000000;
 }
-.dov{
-    display: flex;
-    align-items:flex-start ;
-    padding-left: 5px;
-    padding-top: 0px;
-    margin-bottom: -20px;
+.wpl{
     
+
 }
-.dov span{
+.wpl span{
     text-transform: uppercase; 
     background-color: aqua; 
     border: 2px solid sandybrown;
@@ -85,81 +73,66 @@
     font-weight: 100px;
     
 }
-.dov span:hover{
+.wpl span:hover{
     color: aliceblue;
     background-color: black; 
     border: 2px solid magenta;
     font: 20px "Monospace";
 }
-.filk{
-    padding-left: 30px;
-    display: inline-flex;
+.wplist{
+    /* display: inline-flex;
     flex-direction:row ;
-    margin-top: -30px;
+    margin-top: -30px; */
 }
-.bano{
+.wplbun{
     background-color: blueviolet;
-    width: 260px;
-    height:200px;
-    padding-left: 200px;
-    padding-right: 105px;  
+    
+    /*padding-left: 200px;
+    padding-right: 105px;*/  
 }
-.btn{
-    margin-top: 1px;
+.btone{
     width: 70px;
-    padding-top: 20px;
-    padding-right:8px;
     
 }
-.btn button{
+.btone button{
     color: black;
     font: 15px "monospace";
-    width: 90px;
-    height: 38px;
-    text-decoration-thickness: 80px;
+    
+    
     background-color: aqua;
     border:2px solid #000000;
-    padding-right: 5px;
 }
-.btn button:hover{
+.btone button:hover{
     color: aliceblue;
     background-color: black; 
     border: 2px solid magenta;
 }
-.ban{
-    padding-top: 20px;
-    width: 90px;
-    padding-left: 20px;
+.wplbunt{
+
     
 }
-.ban button{
+.wplbunt button{
     color: black;
     font: 15px "monospace";
-    width: 100px;
-    height: 38px;
     background-color: aqua;
     border: 2px solid #000000;
-    margin-left: 5px;
+    
 }
-.ban button:hover{
+.wplbunt button:hover{
     color: aliceblue;
     background-color: black; 
     border: 2px solid magenta;
     font-weight: 200px;
 }
-.svg{
-    padding-top: 30px;
-    padding-left: 30px;
+.wpsvg{
+    
     color: aliceblue;
 }
-.svg:hover{
+.wpsvg:hover{
     color: blueviolet;
 }
-p{
-    padding-left:230px; 
-    margin-top: -60px;
-    margin-bottom: -30px;
-    padding-right: 0px;
+.wppa p{
+    
 }
 
 </style>
@@ -171,15 +144,15 @@ p{
     <div class="wp">
         
         
-        <div class="one">
-            <div class="mago">
+        <div class="wpo">
+            <div class="wpimg">
                 <img src="Images/Logo.jpeg" alt="Bingo">
             </div>
-            <div class="demo">
-                <div class="ale"> 
+            <div class="wpu">
+                <div class="hon"> 
                     <h1>Retro Shoe</h1>
                 </div>
-                <div class="win">
+                <div class="wpdo">
                     <span>$90</span>
                     <p> In Stock</p> 
                    
@@ -187,8 +160,8 @@ p{
             </div>
             
         </div>
-        <div class="bano">
-            <div class="dov">
+        <div class="wpl">
+            <div class="wplist">
                 <ul>
                     <span>xs</span>
                     <span>s</span>
@@ -197,23 +170,24 @@ p{
                     <span>xl</span>
                 </ul>
             </div>
-            <div class="filk">
-                <div class="btn">
+            <div class="wplbun">
+                <div class="btone">
                     <button type="button">Buy Now</button>
                 </div>
-                <div class="ban">
+                <div class="wplbunt">
                     <button type="button">Add to Cart</button>
                 </div>
                 <div>
-                    <svg class="svg">
+                    <svg class="wpsvg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
                     </svg>
                 </div>
             </div>
+            
+                <p class="wppa">Free shipping on all continental US orders.</p>
+            
         </div>
-        <div class="lio">
-            <p>Free shipping on all continental US orders.</p>
-        </div>
+        
     </div>
 </main>
 </body>
