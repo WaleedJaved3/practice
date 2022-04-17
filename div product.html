@@ -9,11 +9,12 @@
 <style>
  /*The whole div product*/  
 .wp{
-    height: 230px;
+    height: 200px;
     width: 500px;
     margin: 10px 10px;
     border: 2px solid rgb(0, 0, 0);
     position: absolute;
+    font-family: "Poppins";
     -webkit-box-shadow: -2px -1px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.425);
     box-shadow: 0px -3px 45px 0px rgba(209, 10, 10, 0.35);
@@ -33,106 +34,95 @@
 .wpo{
     display: inline;
     flex-direction:row ;
-    /*height: 30px;*/
+    height: 30px;
     width: 500px; 
     float: left; 
+    
+    background-color: aqua;
 }
-
+/*h1,span and p started here */
 .wpu{
-    font:10px "Poppins" ;
-    height: 90px;
+    height: 70px;
     background-color: aqua;
     /*padding-left: 20px 0px 0px 0px;*/
 }
 .hon {
-    /*padding-left: 20px;
-    margin-top: 0px;
-    margin-left: 12px;*/
-    display: inline-flex;
+    display: inline;
     flex-direction:row ;
-    
 }
-.wpdo span{
-    font-size:15px;
-    /*padding:0px 1px 2px 0px;*/
+.hon h1,span,p{
+    display: inline;
+
 }
-.wpdo p{
+.hon h1{
+    font-size: 30px;
+    padding: 0px 0px 0px 20px;
+}
+.hon span{
+    font-size:16px;
+    padding:0px 0px 0px 25px;
+}
+.hon p{
+    padding:0px 0px 0px 25px;
     text-transform: uppercase;
     font-size:20px;
     color: #000000;
 }
 .wpl{
-    
-
+    /*background-color: purple ;*/
+    height: 230px;
+    padding: 0px 15;
 }
-.wpl span{
+/*List style start*/
+.wpl ul{ 
+    display: inline;
+    float: left;
+    margin: 58px 0px 0px 200px;
     text-transform: uppercase; 
-    background-color: aqua; 
-    border: 2px solid sandybrown;
-     
-    font-weight: 100px;
-    
+    width: 200px;
 }
-.wpl span:hover{
-    color: aliceblue;
-    background-color: black; 
-    border: 2px solid magenta;
-    font: 20px "Monospace";
+.wpl ul span{
+    background-color: black;
+    color: rgb(252, 246, 246);
+    border: 2px solid rgb(255, 255, 255); 
 }
-.wplist{
-    /* display: inline-flex;
-    flex-direction:row ;
-    margin-top: -30px; */
+.wpl ul span:hover{
+    color: white;
+    background-color:aqua;
+    border: 2px solid black;
 }
-.wplbun{
-    background-color: blueviolet;
-    
-    /*padding-left: 200px;
-    padding-right: 105px;*/  
-}
-.btone{
-    width: 70px;
-    
-}
-.btone button{
-    color: black;
-    font: 15px "monospace";
-    
-    
-    background-color: aqua;
-    border:2px solid #000000;
-}
-.btone button:hover{
-    color: aliceblue;
-    background-color: black; 
-    border: 2px solid magenta;
-}
-.wplbunt{
+/*List style end*/
 
-    
+/* button and remainings*/
+.wplbun{
+    display: inline;
+    flex-direction: row;
+    width: 70px;
+    padding:10px 105px 0px 200px;
 }
-.wplbunt button{
+
+.wplbun button{
     color: black;
-    font: 15px "monospace";
-    background-color: aqua;
-    border: 2px solid #000000;
-    
+    background-color: white;
+    border:2px solid #000000;
+    margin: 30px 0px 0px 20px ;
 }
-.wplbunt button:hover{
-    color: aliceblue;
+.wplbun button:hover{
+    color: white;
     background-color: black; 
-    border: 2px solid magenta;
-    font-weight: 200px;
+    border: 2px solid black;
 }
-.wpsvg{
-    
+.wplbun svg{
+    height: 18px;
+    width: 20px;
+    margin-top:-22px ;
+    margin-left: 410px ;
     color: aliceblue;
 }
-.wpsvg:hover{
-    color: blueviolet;
-}
-.wppa p{
-    
+.wplbun p{
+    height: 20px;
+    font-size:12px;
+    margin:0px 0px 0px 110px;
 }
 
 </style>
@@ -150,9 +140,7 @@
             </div>
             <div class="wpu">
                 <div class="hon"> 
-                    <h1>Retro Shoe</h1>
-                </div>
-                <div class="wpdo">
+                    <h1>Retro Shoe</h1><br>
                     <span>$90</span>
                     <p> In Stock</p> 
                    
@@ -161,31 +149,25 @@
             
         </div>
         <div class="wpl">
-            <div class="wplist">
-                <ul>
-                    <span>xs</span>
-                    <span>s</span>
-                    <span>m</span>
-                    <span>l</span>
-                    <span>xl</span>
-                </ul>
-            </div>
+            
+            <ul>
+                <span>xs</span>
+                <span>s</span>
+                <span>m</span>
+                <span>l</span>
+                <span>xl</span>
+            </ul>
+            
             <div class="wplbun">
-                <div class="btone">
                     <button type="button">Buy Now</button>
-                </div>
-                <div class="wplbunt">
                     <button type="button">Add to Cart</button>
-                </div>
-                <div>
-                    <svg class="wpsvg">
+                    <svg>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
                     </svg>
-                </div>
+                    <br>
+                    <p>Free shipping on all continental US orders.</p>       
             </div>
-            
-                <p class="wppa">Free shipping on all continental US orders.</p>
-            
+                
         </div>
         
     </div>

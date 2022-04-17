@@ -30,163 +30,140 @@
     
     <!--internal css-->
     <style>
-      *{
-        margin: auto;
-        padding: auto;
-      }
-      .main{
+      main{
         width: 1263px;
         height:1950px ;
-      }/*
+      }
+     /*The whole div product*/  
       .wp{
-        height: 284px;
-        width: 565px;
-        border: 2px solid salmon;
+        height: 200px;
+        width: 500px;
+        margin: 10px 60px 10px 100px;
+        border: 2px solid rgb(0, 0, 0);
+        position: absolute;
+        font-family: "Poppins";
         -webkit-box-shadow: -2px -1px 15px 0px rgba(0,0,0,0.5);
         -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.425);
         box-shadow: 0px -3px 45px 0px rgba(209, 10, 10, 0.35);
-    }
-    
-    
-    .demo{
-        background-color: teal;
-        
-        width: 565px;
-        margin-right: 55%; 
-    }
-    .wpimg img{
+      }
+      /*Image */  
+      .wpimg img{
+        position: relative;
         float: left;
         width: 200px;
         height: 150px;
-        margin-left: 20px;
-        margin-bottom: 0px;
-        margin-top: 20px;
-        background-color: teal;
-        
-    } 
-    .ale h1{
-        display: inline-block;
-        flex-direction:row ;
-        font-family: monospace;
-        align-items: flex-start;
-        justify-items: flex-start;
-         padding-left: 20px;
-        /*margin-top: -100px; */
-    }
-    .win {
         padding-left: 20px;
-        margin-top: 0px;
-        margin-left: 12px;
-        display: inline-flex;
+        padding-bottom: 0px;
+        padding-top: 20px;
+
+      } 
+      /*Upper body */
+      .wpo{
+        display: inline;
         flex-direction:row ;
+        height: 30px;
+        width: 496px; 
+        float: left; 
         
-    }
-    .win span{
-        font:15px  "Poppins";
-        padding:0px 1px 2px 0px;
-        font-family: monospace;
-    }
-    .win p{
+        background-color: aqua;
+      }
+      /*h1,span and p started here */
+      .wpu{
+        height: 70px;
+        background-color: aqua;
+        /*padding-left: 20px 0px 0px 0px;*/
+      }
+      .hon {
+        display: inline;
+        flex-direction:row ;
+      }
+      .hon h1,span,p{
+        display: inline;
+
+      }
+      .hon h1{
+        font-size: 30px;
+        padding: 0px 0px 0px 20px;
+      }
+      .hon span{
+        font-size:16px;
+        padding:0px 0px 0px 25px;
+      }
+      .hon p{
+        padding:0px 0px 0px 25px;
         text-transform: uppercase;
-        font:20px  "Poppins";
-        padding: 57px 1px 0px 15px;
-        font-family: monospace;
+        font-size:20px;
         color: #000000;
-    }
-    .dov{
-        display: flex;
-        align-items:flex-start ;
-        padding-left: 5px;
-        padding-top: 0px;
-        margin-bottom: -20px;
+      }
+      .wpl{
         
-    }
-    .dov span{
+        padding: 0px 15;
+      }
+      /*List style start*/
+      .wpl ul{ 
+        display: inline;
+        float: left;
+        margin: 50px 0px 20px 200px;
         text-transform: uppercase; 
-        background-color: aqua; 
-        border: 2px solid sandybrown;
-         
-        font-weight: 100px;
+        width: 200px;
+      }
+      .wpl ul span{
+        background-color: black;
+        color: rgb(252, 246, 246);
+        border: 2px solid rgb(255, 255, 255); 
+      }
+      .wpl ul span:hover{
+        color: white;
+        background-color:rgb(0, 0, 0);
+        border: 2px solid black;
+      }
+      /*List style end*/
+
+      /* button and remainings*/
+      .wplbun{
+        margin: 50px 0px 0px 0px;
+        width: 520px;
+        display: inline;
+        flex-direction: row;
+        font: 12px "Poppins";
         
-    }
-    .dov span:hover{
-        color: aliceblue;
-        background-color: black; 
-        border: 2px solid magenta;
-        font: 20px "Monospace";
-    }
-    .filk{
-        padding-left: 30px;
-        display: inline-flex;
-        flex-direction:row ;
-        margin-top: -30px;
-    }
-    .bano{
-        background-color: blueviolet;
-        width: 260px;
-        height:198.5px;
-        padding-left: 200px;
-        padding-right: 105px;  
-    }
-    .btn1{
-        margin-top: 1px;
-        width: 70px;
-        padding-top: 20px;
-        padding-right:8px;
-        
-    }
-    .btn1 button{
+      }
+
+      .wplbun button{
         color: black;
-        font: 15px "monospace";
-        width: 90px;
-        height: 38px;
-        text-decoration-thickness: 80px;
-        background-color: aqua;
+        float: left;
+        width: 85px;
+        height:25px ;
+        background-color: white;
         border:2px solid #000000;
-        padding-right: 5px;
-    }
-    .btn1 button:hover{
-        color: aliceblue;
-        background-color: black; 
-        border: 2px solid magenta;
-    }
-    .ban1{
-        padding-top: 20px;
-        width: 90px;
-        padding-left: 20px;
-        
-    }
-    .ban1 button{
-        color: black;
-        font: 15px "monospace";
-        width: 100px;
-        height: 38px;
-        background-color: aqua;
-        border: 2px solid #000000;
-        margin-left: 5px;
-    }
-    .ban1 button:hover{
-        color: aliceblue;
-        background-color: black; 
-        border: 2px solid magenta;
-        font-weight: 200px;
-    }
-    .svg{
-        padding-top: 30px;
-        padding-left: 30px;
-        color: aliceblue;
-    }
-    .svg:hover{
-        color: blueviolet;
-    }
-    p{
-        padding-left:230px; 
-        margin-top: -60px;
-        margin-bottom: -30px;
-        padding-right: 0px;
-    }
+        margin-top: 90px;
+        margin-left: -90px;
+        padding: 0px;
+      }
+      button:first-child{
+        margin-left: -200px;
+      }
       
-       /*{*
+     
+      .wplbun button:hover{
+        color: white;
+        background-color: black; 
+        border: 2px solid black;
+      }
+      .wplbun svg{
+        height: 18px;
+        width: 20px;
+        margin-top:-22px ;
+        margin-left: 410px ;
+      }
+      .wplbun p{
+        height: 20px;
+        font-size:12px;
+        margin:0px 0px 0px 110px;
+      }
+
+      
+      /*{*
         margin:auto;
         padding:auto;
         box-sizing: border-box;
@@ -296,28 +273,26 @@
         <!--main-->
 
         <main>
-          <div class="product">
-            <div class="wp">
         
-        
-              <div class="on">
-                  <div class="wpimg">
-                      <img src="Images/Logo.jpeg" alt="Bingo">
-                  </div>
-                  <div class="demo">
-                      <div class="ale"> 
-                          <h1>Retro Shoe</h1>
+                <div class="wp">
+              
+              
+                  <div class="wpo">
+                      <div class="wpimg">
+                          <img src="Images/Logo.jpeg" alt="Bingo">
                       </div>
-                      <div class="win">
-                          <span>$90</span>
-                          <p> In Stock</p> 
-                         
+                      <div class="wpu">
+                          <div class="hon"> 
+                              <h1>Retro Shoe</h1><br>
+                              <span>$90</span>
+                              <p> In Stock</p> 
+                            
+                          </div>
                       </div>
+                      
                   </div>
-                  
-              </div>
-              <div class="bano">
-                  <div class="dov">
+                  <div class="wpl">
+                      
                       <ul>
                           <span>xs</span>
                           <span>s</span>
@@ -325,29 +300,22 @@
                           <span>l</span>
                           <span>xl</span>
                       </ul>
+                      
+                      <div class="wplbun">
+                              <button>Buy Now</button>
+                              <button>Add to Cart</button>
+                              <svg>
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                              </svg>
+                              <br>
+                              <p>Free shipping on all continental US orders.</p>       
+                      </div>
+                          
                   </div>
-                  <div class="filk">
-                      <div class="btn1">
-                          <button type="button">Buy Now</button>
-                      </div>
-                      <div class="ban1">
-                          <button type="button">Add to Cart</button>
-                      </div>
-                      <div>
-                          <svg class="svg">
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
-                          </svg>
-                      </div>
-                  </div>
-              </div>
-              <div class="lio">
-                  <p>Free shipping on all continental US orders.</p>
-              </div>
-          </div>
-            
-          </div>
-
-          
+                  
+                </div>
+             
+                
 
         </main>
         
