@@ -16,7 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Koulen&display=swap" rel="stylesheet">
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <!--jquery-->
+    <link rel="jquery" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
     <!--Font Awesome-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
@@ -219,12 +220,15 @@
           <div class="container">
             <div class="bg-white rounded d-flex align-items-center justify-content-between" id="header">
               <button class="btn btn-hide text-uppercase" type="button" data-toggle="collapse" data-target="#filterbar" aria-expanded="false" aria-controls="filterbar" id="filter-btn" onclick="changeBtnTxt()"> 
-                <span class="fas fa-angle-left" id="filter-angle"></span> 
-                <span id="btn-txt">Hide filters</span> 
+                <!-- <span class="fas fa-angle-left" id="filter-angle"></span> 
+                <span id="btn-txt">Hide filters</span>  -->
               </button> 
-                <nav class="navbar navbar-expand-lg navbar-light pl-lg-0 pl-auto"> 
+             <nav class="navbar navbar-expand-lg navbar-light pl-lg-0 pl-auto"> 
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggle navigation" onclick="chnageIcon()" id="icon"> 
-                <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="mynav"> <ul class="navbar-nav d-lg-flex align-items-lg-center"> 
+                <span class="navbar-toggler-icon"></span> 
+              </button>
+              <div class="collapse navbar-collapse" id="mynav"> 
+                <ul class="navbar-nav d-lg-flex align-items-lg-center"> 
                   <li class="nav-item active"> 
                     <select name="sort" id="sort"> 
                       <option value="" hidden selected>Sort by</option> 
@@ -449,6 +453,7 @@
               </div> 
               <div id="products"> 
                 <div class="row mx-0"> 
+                  <!--copy-->
                   <div class="col-lg-4 col-md-6"> 
                   <div class="card d-flex flex-column align-items-center"> 
                   <div class="product-name">Torn Jeans for Men</div> 
@@ -620,7 +625,182 @@
                         </div> 
                       </div> 
                   </div> 
+                  <!--copy end-->
+                  <div class="col-lg-4 col-md-6"> 
+                    <div class="card d-flex flex-column align-items-center"> 
+                    <div class="product-name">Torn Jeans for Men</div> 
+                    <div class="card-img"> 
+                      <img src="" alt=""> 
+                    </div> 
+                      <div class="card-body pt-5"> 
+                        <div class="text-muted text-center mt-auto">Available Colors</div> 
+                        <div class="d-flex align-items-center justify-content-center colors my-2"> 
+                          <div class="btn-group" data-toggle="buttons" data-tooltip="tooltip" data-placement="right" title="choose color"> 
+                            <label class="btn btn-red form-check-label"> 
+                              <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                              <label class="btn btn-blue form-check-label active"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                <label class="btn btn-green form-check-label"> 
+                                  <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                  <label class="btn btn-orange form-check-label"> 
+                                    <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                    <label class="btn btn-pink form-check-label"> 
+                                      <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                    </div> </div> <div class="d-flex align-items-center price"> 
+                                      <div class="del mr-2">
+                                        <span class="text-dark">5500 uah</span>
+                                      </div> <div class="font-weight-bold">4500 uah</div> 
+                                    </div> 
+                                  </div> 
+                                </div> 
+                              </div> 
+                    <div class="col-lg-4 col-md-6 pt-md-0 pt-3"> 
+                      <div class="card d-flex flex-column align-items-center"> 
+                        <div class="product-name">Nike Tshirts for Men</div> 
+                        <div class="card-img"> 
+                          <img src="https://www.freepnglogos.com/uploads/t-shirt-png/t-shirt-png-printed-shirts-south-africa-20.png" alt="" height="100" id="shirt"> 
+                        </div> 
+                        <div class="text-muted text-center mt-auto">Available Sizes</div> 
+                        <div id="avail-size"> 
+                          <div class="btn-group d-flex align-items-center flex-wrap" data-toggle="buttons"> 
+                            <label class="btn btn-success form-check-label"> 
+                            <input class="form-check-input" type="checkbox"> 80 </label> 
+                            <label class="btn btn-success form-check-label"> 
+                            <input class="form-check-input" type="checkbox" checked> 92 </label> 
+                            <label class="btn btn-success form-check-label"> 
+                            <input class="form-check-input" type="checkbox" checked> 102 </label> 
+                            <label class="btn btn-success form-check-label"> 
+                            <input class="form-check-input" type="checkbox" checked> 104 </label> 
+                            <label class="btn btn-success form-check-label"> 
+                            <input class="form-check-input" type="checkbox" checked> 106 </label> 
+                            <label class="btn btn-success form-check-label"> 
+                            <input class="form-check-input" type="checkbox" checked> 108 </label> 
+                          </div> 
+                        </div> 
+                        <div class="card-body pt-0"> 
+                          <div class="text-muted text-center mt-auto">Available Colors</div> 
+                          <div class="d-flex align-items-center justify-content-center colors my-2"> 
+                            <div class="btn-group" data-toggle="buttons" data-tooltip="tooltip" data-placement="right" title="choose color"> 
+                              <label class="btn btn-light border form-check-label"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> 
+                              </label> 
+                              <label class="btn btn-blue form-check-label active"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> 
+                              </label> 
+                              <label class="btn btn-green form-check-label"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> 
+                              </label> 
+                              <label class="btn btn-orange form-check-label"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> 
+                              </label> 
+                              <label class="btn btn-pink form-check-label"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> 
+                              </label> 
+                            </div> 
+                          </div> 
+                          <div class="d-flex align-items-center price"> 
+                            <div class="del mr-2">
+                              <span class="text-dark">5500 uah</span>
+                            </div> 
+                            <div class="font-weight-bold">4500 uah</div> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-lg-4 col-md-6 pt-lg-0 pt-md-4 pt-3"> 
+                      <div class="card d-flex flex-column align-items-center"> 
+                        <div class="product-name text-center">Casual Dress Belts For Men</div> 
+                          <div class="card-img"><img src="" alt=""> </div> 
+                            <div class="card-body pt-5"> 
+                              <div class="text-muted text-center mt-auto">Available Colors</div> 
+                              <div class="d-flex align-items-center justify-content-center colors my-2"> 
+                                <div class="btn-group" data-toggle="buttons" data-tooltip="tooltip" data-placement="right" title="choose color"> 
+                                  <label class="btn btn-dark border form-check-label"> 
+                                    <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                    <label class="btn btn-brown form-check-label active"> 
+                                      <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                    </div> 
+                              </div> 
+                              <div class="d-flex align-items-center justify-content-center price"> 
+                                <div class="font-weight-bold">500 uah</div> 
+                              </div> 
+                            </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-lg-4 col-md-6 pt-md-4 pt-3"> 
+                      <div class="card d-flex flex-column align-items-center"> 
+                        <div class="product-name text-center">Footwear For Women</div> 
+                        <div class="card-img"> 
+                          <img src="" alt=""> 
+                        </div> 
+                        <div class="card-body pt-5"> 
+                          <div class="text-muted text-center mt-auto">Available Colors</div> 
+                          <div class="d-flex align-items-center justify-content-center colors my-2"> 
+                            <div class="btn-group" data-toggle="buttons" data-tooltip="tooltip" data-placement="right" title="choose color"> 
+                              <label class="btn btn-dark border form-check-label"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                <label class="btn btn-brown form-check-label active"> 
+                                  <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                  <label class="btn btn-pink form-check-label"> 
+                                    <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                    <label class="btn btn-red form-check-label"> 
+                                      <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                            </div> 
+                          </div> 
+                          <div class="d-flex align-items-center justify-content-center price"> 
+                            <div class="font-weight-bold">1500 uah</div> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-lg-4 col-md-6 pt-md-4 pt-3"> 
+                      <div class="card d-flex flex-column align-items-center"> 
+                        <div class="product-name text-center">Nike Jogging shoes For Men</div> 
+                        <div class="card-img"> <img src="" alt=""> </div> 
+                        <div class="card-body pt-5"> 
+                          <div class="text-muted text-center mt-auto">Available Colors</div> 
+                          <div class="d-flex align-items-center justify-content-center colors my-2"> 
+                            <div class="btn-group" data-toggle="buttons" data-tooltip="tooltip" data-placement="right" title="choose color"> 
+                              <label class="btn btn-dark border form-check-label"> 
+                                <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                <label class="btn btn-pink form-check-label active"> 
+                                  <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                  <label class="btn btn-blue form-check-label"> 
+                                    <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                                    <label class="btn btn-orange form-check-label"> 
+                                      <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                            </div> 
+                          </div> 
+                          <div class="d-flex align-items-center justify-content-center price"> 
+                            <div class="font-weight-bold">1200 uah</div> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-lg-4 col-md-6 pt-md-4 pt-3"> 
+                      <div class="card d-flex flex-column align-items-center"> 
+                        <div class="product-name text-center">Leather Wallets For Men</div> 
+                        <div class="card-img"> <img src="" alt=""> </div> 
+                          <div class="card-body pt-5"> 
+                            <div class="text-muted text-center mt-auto">Available Colors</div> 
+                              <div class="d-flex align-items-center justify-content-center colors my-2"> 
+                                <div class="btn-group" data-toggle="buttons" data-tooltip="tooltip" data-placement="right" title="choose color"> 
+                                  <label class="btn btn-dark border form-check-label">
+                                    <input class="form-check-input" type="radio" autocomplete="off"> </label>
+                                    <label class="btn btn-brown form-check-label active"> 
+                                    <input class="form-check-input" type="radio" autocomplete="off"> </label> 
+                              </div> 
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center price"> 
+                              <div class="font-weight-bold">900 uah</div>
+                            </div> 
+                          </div> 
+                        </div> 
+                    </div>
+
+
                 </div> 
+                
               </div> 
             </div> 
           </div>
