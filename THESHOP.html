@@ -41,11 +41,16 @@
       /*The div contains products div's */
       aside{
         float: left;
+        position: sticky;
       }
       
-      .nav-item ul,li,ol{
+      .nav-item a,ul,li,ol{
         text-decoration: none;
         list-style-type: none;
+        color: black;
+      }
+      input[type="checkbox"]{
+        margin:10px 10px 2px 1px;
       }
       /* Product detail page */
       
@@ -97,26 +102,91 @@
             <aside>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  SELECTIONS
                 </a>
                 <ul>
-                  <input type="checkbox" name="course" value="HOME_page"><a href="index.html">Home</a> <br>
-                  <input type="checkbox" name="course" value="MENS_page"><a href="MENS.html">MENS</a> <br>
-                  <input type="checkbox" name="course" value="WOMENS_page"><a href="WOMENS.html">WOMENS</a> <br>
-                  <input type="checkbox" name="course" value="KIDS_page"><a href="KIDS.html">KIDS</a> <br>
-                  <input type="checkbox" name="course" value="ACCESSORIES_page"><a href="ACCESSORIES.html">ACCESSORIES</a> <br>
-                  <input type="checkbox" name="course" value="THESHOP_page"><a href="THESHOP.html">The Shop</a> <br>
-                  <input type="checkbox" name="course" value="TRENDING_NOW_page"><a href="TRENDING_NOW.html">Trending</a> <br>
+                  <input type="checkbox" name="" value="" ><a href="#">Home</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">MENS</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">WOMENS</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">KIDS</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">ACCESSORIES</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">The Shop</a> <br>
+                  <input type="checkbox" name="" value=""><a  href="#">Trending</a> <br>
                 </ul>
-                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul> -->
               </li>
+              <br>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SIZES
+                </a>
+                <ul>
+                  <input type="checkbox" name="" value="" ><a href="#">1-10</a> 
+                  <input type="checkbox" name="" value=""><a href="#">11</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">12-15</a> 
+                  <input type="checkbox" name="" value=""><a href="#">16-18</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">19-22</a>
+                  <input type="checkbox" name="" value=""><a href="#">23-25</a> <br>
+                  <input type="checkbox" name="" value=""><a  href="#">26</a>
+                  <input type="checkbox" name="" value="" ><a href="#">1-10</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">11</a> 
+                  <input type="checkbox" name="" value=""><a href="#">12-15</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">16-18</a> 
+                  <input type="checkbox" name="" value=""><a href="#">19-22</a><br>
+                  <input type="checkbox" name="" value=""><a href="#">23-25</a> 
+                  <input type="checkbox" name="" value=""><a  href="#">26</a><br>
+                  <input type="checkbox" name="" value="" ><a href="#">1-10</a> 
+                  <input type="checkbox" name="" value=""><a href="#">11</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">12-15</a> 
+                  <input type="checkbox" name="" value=""><a href="#">16-18</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">19-22</a>
+                  <input type="checkbox" name="" value=""><a href="#">23-25</a> <br>
+                  <input type="checkbox" name="" value=""><a  href="#">26</a>
+                  <input type="checkbox" name="" value="" ><a href="#">1-10</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">11</a> 
+                  <input type="checkbox" name="" value=""><a href="#">12-15</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">16-18</a> 
+                  <input type="checkbox" name="" value=""><a href="#">19-22</a><br>
+                  <input type="checkbox" name="" value=""><a href="#">23-25</a> 
+                  <input type="checkbox" name="" value=""><a  href="#">26</a><br>
+                  <input type="checkbox" name="" value="" ><a href="#">1-10</a> 
+                  <input type="checkbox" name="" value=""><a href="#">11</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">12-15</a> 
+                  <input type="checkbox" name="" value=""><a href="#">16-18</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">19-22</a>
+                  <input type="checkbox" name="" value=""><a href="#">23-25</a> <br>
+                  <input type="checkbox" name="" value=""><a  href="#">26</a>
+                  <input type="checkbox" name="" value="" ><a href="#">1-10</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">11</a> 
+                  <input type="checkbox" name="" value=""><a href="#">12-15</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">16-18</a>
+                  <input type="checkbox" name="" value=""><a href="#">19-22</a><br>
+                  <input type="checkbox" name="" value=""><a href="#">23-25</a> 
+                  <input type="checkbox" name="" value=""><a  href="#">26</a><br>
+                  <input type="checkbox" name="" value="" ><a href="#">1-10</a> 
+                  <input type="checkbox" name="" value=""><a href="#">11</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">12-15</a> 
+                  <input type="checkbox" name="" value=""><a href="#">16-18</a> <br>
+                  <input type="checkbox" name="" value=""><a href="#">19-22</a>
+                  <input type="checkbox" name="" value=""><a href="#">23-25</a> <br>
+                  <input type="checkbox" name="" value=""><a  href="#">26</a>
+                </ul>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" id="downbar" aria-labelledby="navbarDropdown">
+                  <input type="checkbox" name="downbar" value="HOME_page"><a  href="index.html">Home</a> 
+                  <input type="checkbox" name="downbar" value="MENS_page"><a  href="MENS.html">MENS</a> 
+                  <input type="checkbox" name="downbar" value="WOMENS_page"><a  href="WOMENS.html">WOMENS</a>
+                  <input type="checkbox" name="downbar" value="KIDS_page"><a  href="KIDS.html">KIDS</a> 
+                  <input type="checkbox" name="downbar" value="ACCESSORIES_page"><a  href="ACCESSORIES.html">ACCESSORIES</a> 
+                  <input type="checkbox" name="downbar" value="THESHOP_page"><a  href="THESHOP.html">The Shop</a> 
+                  <input type="checkbox" name="downbar" value="TRENDING_NOW_page"><a  href="TRENDING_NOW.html">Trending</a> 
+                </ul>
+              </li> -->
         
-              <section>
+              <!-- <section>
                 <h3>Category</h3>
                 <hr>
                 <ul>
@@ -140,7 +210,7 @@
                   <li>60 - 99</li>
                   <li>100 +</li>
                 </ul>
-              </section>
+              </section> -->
               
             </aside>
   
