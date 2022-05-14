@@ -35,15 +35,15 @@
     <style>
       main{
         width: 1263px;
-        height:2500px ;
+        height:2000px ;
       }
 
       /*The div contains products div's */
       aside{
         float: left;
         position: sticky;
-      }/*
-      .dropdown-menu ul{
+      }
+      /*.dropdown-menu ul{
         list-style:none;
         font-size:1rem;
     }
@@ -127,8 +127,8 @@
       }
       /* Product detail page */
       .card-img img{
-        width: 50%;
-        height: 70%;
+        width: 250px;
+        height: 110px;
       }
 
       /*Last div scroll bar design*/
@@ -136,6 +136,43 @@
         width: 250px;
         height:400px;
       }
+      .wpl ul{ 
+        cursor: pointer;
+        display: inline;
+        float: left;
+        text-transform: uppercase; 
+        width: 200px;
+    }
+    .wpl ul span{
+        background-color: black;
+        color: rgb(252, 246, 246);
+        border: 2px solid rgb(255, 255, 255); 
+    }
+    .wpl ul span:hover{
+
+        color: white;
+        background-color:aqua;
+        border: 2px solid black;
+    }
+    .btn-sm a {
+      text-decoration: none;
+      margin-left: 30px;
+      margin-right: 20px;
+    }
+    
+    
+    /*.display{
+      margin-left:-10px ;
+      display:inline ;
+      flex-direction:row; 
+      
+    }*/ 
+    .display svg{
+      width: 20px;
+      height:50px;
+      margin-left: 160px;
+      margin-top: -30px; 
+    }
       
       
 
@@ -948,70 +985,233 @@ Basic dropdown -->
           </div>
 
                 
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 pt-md-0 my-5 pb-4">
-              <div class="scroller">
-                <img src="images/controller.jpg" alt="Last-div">
-              </div>
-              <div class="listeddivs">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 pt-md-0 my-5 pb-4">
-              <div class="scroller">
-                <img src="images/controller.jpg" alt="Last-div">
-              </div>
-              <div class="listeddivs">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 pt-md-0 my-5 pb-4">
-              <div class="scroller">
-                <img src="images/controller.jpg" alt="Last-div">
-              </div>
-              <div class="listeddivs">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 pt-md-0 my-5 pb-4">
-              <div class="scroller">
-                <img src="images/controller.jpg" alt="Last-div">
-              </div>
-              <div class="listeddivs">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        
                 
 
         </main>
+        
+        <!--LAst div for display like cards!-->
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+
+              
+              
+            </div>
+            
+            <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+            
+
+            </div>
+            <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+            </div>
+            <!--
+              <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+
+              
+              
+            </div>
+            
+            <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+            
+
+            </div>
+            <div class="col-lg-3 col-md-6 pt-md-0">
+              <div class="scroller">
+                <img src="images/controller.jpg" alt="Last-div">
+              </div>
+              <div class="wpl mt-4 mx-5">
+                <ul class="flex-gap">
+                    <span>xs</span>
+                    <span>s</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>xl</span>
+                </ul>
+                <div class="display">
+                  <div class="btn btn-sm btn-outline-dark">
+                    <a href="#" type="button">Add to Cart</a>  
+                  </div>
+                  
+                  
+                    <svg>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                  
+                </div>
+              </div>
+            </div>
+            -->
+          </div>
+        </div>
         
         <!--footer-->
 
