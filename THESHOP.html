@@ -132,9 +132,13 @@
       }
 
       /*Last div scroll bar design*/
+      
       .scroller img{
         width: 250px;
-        height:400px;
+        height:300px;
+      }
+      .wpl{
+        width: 200px;
       }
       .wpl ul{ 
         cursor: pointer;
@@ -171,22 +175,24 @@
       
     /*adding animations to the last div*/
     .lilo{
-      width: 1263px;
-      height: 500px;
       overflow: hidden;
     }
     .dilo{
-      width: 2500px;
+      width: 1263px;
       display: inline-flex;
       flex-direction: row;
       position: relative;
-      animation: demo 10s infinite;
+      animation: demo 5s infinite;
+      animation-direction: alternate-reverse;
       
+    }
+    .dilo:hover{
+      animation-play-state:paused;
+
     }
     @keyframes demo{
       0%{left: 0px;}
-      25%{left: -1263px;}
-      50%{left: -2500px;}
+      50%{left: -1263px;}
       100%{left:-2500px;}
     }
       
