@@ -21,18 +21,19 @@
     height: 60px;
 }
 .banner button:hover{
-    color: aqua;
+    color: #5800FF;
     background-color: white;
 }
 .banner button a{
     width: 130px;
     height: 50px;
-
+    color: #000000;
+    background-color: darkslateblue;
     text-decoration: none;
 }
 .banner button a:hover{
-    color: aqua;
-    background-color: white;
+    color: #5800FF;
+    background-color: #000000;
 }
 
 a.Menuus{
@@ -95,7 +96,7 @@ a.Menuus{
     margin: 170px 0px 0px 2px;
 }
 .svg_heart:hover{
-    color: aqua;
+    color:#5800FF ;
     font: 15px "Poppins";
 }
 .spd a{
@@ -108,12 +109,12 @@ a.Menuus{
 }
 
 .spd a:hover{
-    color: aqua;
+    color: #5800FF;
 }
 .spd button:hover{
     font: "Basic Commercial", sans-serif;
     background-color: #000000;
-    color: aqua;
+    color: #5800FF;
 }
  
 .tpd{
@@ -152,7 +153,7 @@ a.Menuus{
 }
 .tpd a:hover{
     
-    color: aqua;
+    color: #5800FF;
     background-color: #000000;
 }
 .fpd{
@@ -182,7 +183,7 @@ a.Menuus{
     background-color: black;
 }
 .fpd a:hover{
-    color: aqua;
+    color: #5800FF;
     background-color: #000000;
     justify-content: center;
     align-items: center;
@@ -198,12 +199,10 @@ a.Menuus{
     font:25px "Poppins", sans-serif;
 }
 .pa a:hover{
-    color:aqua ;
+    color:#5800FF;
     text-align: center;
 }
-.carousel{
-    margin-top:;
-}
+
 .w-100{
     width: 100%;
     height: 500px;

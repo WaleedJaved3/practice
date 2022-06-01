@@ -20,7 +20,7 @@
   flex-direction: row;
 }
 .tp span:hover{
-  color:aqua;
+  color:#5800FF;
 }
 hr{
   color: #ffffff;
@@ -39,7 +39,7 @@ hr{
   padding: 0px 0px 0px 80px;
 }
 .nbar a:hover{
-  color: aqua;
+  color: #5800FF;
 }
 
 /* footer style*/
@@ -109,7 +109,7 @@ hr{
   text-decoration: none;
 }
 .flo a:hover{
-  color:aqua ;
+  color:#5800FF;
   /*background-color: #ffffff;*/
 }
 .flt h5{
@@ -124,7 +124,7 @@ hr{
   text-decoration: none;
 }
 .flt a:hover{
-  color:aqua ;
+  color:#5800FF;
   /*background-color: #ffffff;*/
 }
 .flth h5{
@@ -139,7 +139,7 @@ hr{
   text-decoration: none;
 }
 .flth a:hover{
-  color:aqua ;
+  color:#5800FF;
   /*background-color: #ffffff;*/
 }
 .fblock{
@@ -192,7 +192,7 @@ hr{
   padding-bottom:10px ;
 }
 .flink a:hover{
-  color: aqua;
+  color: #5800FF;
 }
 
 
@@ -206,7 +206,7 @@ hr{
 }
 .flink i:hover{
   
-  color: aqua;
+  color: #5800FF;
 }
 .flast{
   display: flex;
@@ -224,7 +224,7 @@ hr{
   float:left;
 }
 .flast a:hover{
-  color: aqua;
+  color: #5800FF;
 }
 .flast p{
   color: #ffffff;
@@ -240,5 +240,5 @@ hr{
  padding: 70px 60px 0px 0px;
 }
 .btt a:hover{
-  color: aqua;
+  color: #5800FF;
 }
